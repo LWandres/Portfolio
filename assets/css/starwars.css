@@ -1,0 +1,283 @@
+/*General CSS*/
+
+#starwarsheader {
+    margin: 0px auto;
+    width: 100%;
+    background: white;
+    height: 80px;
+    position: fixed;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,427df4+100;Blue+3D+%2314 */
+    background: rgb(122, 188, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(122, 188, 255, 1) 0%, rgba(96, 171, 248, 1) 44%, rgba(66, 125, 244, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(122, 188, 255, 1) 0%, rgba(96, 171, 248, 1) 44%, rgba(66, 125, 244, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(122, 188, 255, 1) 0%, rgba(96, 171, 248, 1) 44%, rgba(66, 125, 244, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#427df4', GradientType=0);
+    /* IE6-9 */
+    font-family: 'Raleway', sans-serif;
+    z-index: 999;
+}
+#background {
+    width: 100%;
+}
+#starwarsmain {
+    padding: 12% 10%;
+}
+#API {
+    display: inline-block;
+}
+body {
+    background: black;
+    font-family: sans-serif;
+    color: white !important;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    z-index: 999;
+}
+h1 {
+    width: 100%;
+    margin-left: 5% !important;
+    color: white;
+}
+h2 {
+    width: 190%;
+}
+p {
+    width: 600% !important;
+}
+button {
+    padding: 2%;
+    border-radius: 10px;
+    background: rgb(122, 188, 255);
+    border: none;
+}
+
+/*toggle CSS*/
+
+#wrapper-darklight {
+    height: 100%;
+    width: 25%;
+    margin-right: 10% !important;
+    display: inline-block;
+    margin-bottom: 10%;
+}
+.dark:hover {
+    color: red;
+}
+.light:hover {
+    color: skyblue;
+}
+
+/*sortable CSS*/
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 90%;
+}
+#sortable li {
+    height: 90px;
+    width: 300px;
+    border: none;
+}
+#img_sort {
+    height: 90px;
+    width: 300px;
+}
+#sortable-force {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-bottom: 10%;
+}
+
+/*image overlay CSS*/
+
+#image-overlay {
+    display: inline-block;
+    margin-left: 8%;
+    vertical-align: top;
+    margin-bottom: 70px;
+}
+.covered {
+    position: relative;
+}
+.handle {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    margin-top: -23px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+}
+.handle span {
+    display: inline-block;
+    margin: 15px 1px 0;
+    color: #000;
+    -webkit-transition: .1s ease-out;
+    -moz-transition: .1s ease-out;
+    -ms-transition: .1s ease-out;
+    -o-transition: .1s ease-out;
+    transition: .1s ease-out;
+}
+.handle.vertical {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.handle:hover {
+    background-color: #555;
+}
+.handle:hover span {
+    color: #FFF;
+}
+.draggable {
+    background-color: #555;
+    cursor: move;
+}
+.draggable span {
+    margin: 15px 4px 0;
+    color: #FFF;
+    -webkit-transition: .1s ease-out;
+    -moz-transition: .1s ease-out;
+    -ms-transition: .1s ease-out;
+    -o-transition: .1s ease-out;
+    transition: .1s ease-out;
+}
+.covered {
+    width: 800px;
+    height: 470px;
+    border: 20px solid #FFF;
+    margin: 50px auto;
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, .4);
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+.third {
+    width: 350px;
+    height: 450px;
+}
+
+/*Animated Background:*/
+
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+@-webkit-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+@-moz-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+@-ms-keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+@keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+@-webkit-keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+@-moz-keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+@-ms-keyframes move-clouds-back {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+.stars, .twinkling, .clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.stars {
+    background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    z-index: -2;
+    height: 500%;
+    width: 200%;
+}
+.twinkling {
+    background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    z-index: -1;
+    height: 500%;
+    width: 200%;
+    -moz-animation: move-twink-back 200s linear infinite;
+    -ms-animation: move-twink-back 200s linear infinite;
+    -o-animation: move-twink-back 200s linear infinite;
+    -webkit-animation: move-twink-back 200s linear infinite;
+    animation: move-twink-back 200s linear infinite;
+}
+
+/*responsive*/
+@media (max-width: 1150px) {
+    #sortable-force, #wrapper-darklight, #image-overlay {
+        display: block !important;
+        margin-top: 10%;
+        margin-left: 0px;
+    }
+    h1 {
+        font-size: 1.5em !important;
+    }
+    h2 {
+        width: 600%;
+    }
+    button {
+        display: block;
+        width: 120%;
+    }
+}

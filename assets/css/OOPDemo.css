@@ -1,0 +1,30 @@
+#svg {
+    width: 100%;
+    height: 100%;
+    background-color: background: rgba(174, 231, 245, 1);
+    background: #39435b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #39435b 0%, #39435b 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39435b), color-stop(100%,#39435b)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(top,  #39435b 0%,#39435b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(top,  #39435b 0%,#39435b 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(top,  #39435b 0%,#39435b 100%); /* IE10 preview */
+    background: linear-gradient(to bottom,  #39435b 0%,#39435b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39435b', endColorstr='#39435b',GradientType=0 ); /* IE6-9 */
+    tr='#aee7f5', endColorstr='#4b98ad', GradientType=0);
+}
+#instructions {
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align:center;
+    color:white;
+}
+#submit {
+    padding: 20px;
+    background: turquoise;
+    color:white;
+    border: none;
+    border-radius: 20px;
+}

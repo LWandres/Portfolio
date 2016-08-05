@@ -1,0 +1,728 @@
+/*Base CSS for all elements*/
+body{
+	width:100%;
+	margin:0px;
+	font-family: 'Varela Round', sans-serif;
+	background: black;
+}
+
+h1{
+	color:white;
+	margin-left: 5%;
+	font-size:2em;
+	text-align: center;
+}
+
+/*header css*/
+#header{
+	height:5%;
+	top:0;
+	width:100% !important;
+	z-index: 1;
+	width: 100%;
+}
+
+.fixed{
+	position:fixed !important;
+	top:15px;
+	width:100%;
+	z-index: 1;
+}
+
+.fixednav {
+    position:fixed !important;
+    top:0;
+	width:100%;
+	z-index: 1;
+}
+
+#ul-header{
+	margin: 0px;
+	background-color:white;
+}
+
+#ul-header > li{
+	display: inline-block;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:7%;
+	color:black;
+	opacity: 1;
+	position:relative;
+}
+#ul-header > li > a{
+	color: black;
+	text-decoration: none;
+	padding-right: 50px;
+	font-size:1.3em;
+	opacity: 1;
+}
+
+#ul-header a:hover {
+  color: rgb(97, 208, 184);
+}
+
+#mobile-nav{
+  display:none;
+}
+
+.right-header{
+	margin: 0px;
+	display:inline-block;
+	float:right;
+	width:400px;
+	margin-right:10%;
+}
+
+.right-header> li >a{
+	color:black;
+	text-decoration: none;
+	padding-right: 30px;
+	vertical-align: bottom;
+}
+
+.right-header > li{
+	display: inline-block;
+	padding-top:10px;
+	padding-bottom:20px;
+	vertical-align: center;
+}
+
+#ul-header > div > li.gmail{
+		margin-top:10px;
+    background: url(/assets/images/gmail.jpg);
+		background-repeat: no-repeat;
+		width:40px;
+}
+
+#ul-header > div > li.linkedin{
+    background: url(/assets/images/linkedin.png);
+		margin-top:10px;
+		background-repeat: no-repeat;
+		width:40px;
+}
+
+#ul-header > div > li.github{
+    background: url(/assets/images/github.png);
+		margin-top:10px;
+		background-repeat: no-repeat;
+		width:60px;
+}
+/* end header css*/
+
+#main{
+	display:inline-block;
+	width:100%;
+	height:20%;
+	background: black;
+	margin-bottom:10%;
+}
+
+#main.article{
+	margin-top:10%;
+}
+
+#contactpic{
+	height:350px;
+	width:400px;
+	background:black;
+	position:fixed;
+	z-index:-1;
+}
+
+#gmail,#linkedin{
+	padding:20px;
+	border:none;
+	border-radius:15px;
+	display:block;
+	margin:0px auto;
+	background: rgba(19, 96, 116,1);
+	border:solid;
+	color:white;
+	margin-top:15%;
+	width:80%;
+	font-size:1.2em;
+}
+
+#gmail:hover,#linkedin:hover{
+	background:MEDIUMTURQUOISE;
+	width:85%;
+}
+
+#contactpic a{
+	text-decoration: none;
+}
+
+#elasticstack > li:nth-child(12) > h5{
+	margin-top:85%;
+	z-index:1;
+}
+
+#nav2{
+	width:93% !important;
+}
+
+#nav2 h2{
+	text-align: center;
+	color:white;
+
+}
+#nav3{
+	margin:10% 0%;
+	height: 100%;
+
+}
+
+#intro{
+	height: 350px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Sacramento);
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.about{
+	width: 400px;
+	height: 340px;
+	background: teal;
+	color:white;
+}
+
+#content > img{
+	display:block;
+	margin:0px auto;
+	margin-top:3%;
+}
+
+#intro > p{
+	display:inline-block;
+	color:white;
+	vertical-align: top;
+	margin-top:8%;
+	margin-left: 5%;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#main > div.main-left > ul >li{
+	display:inline-block;
+	text-decoration: none;
+}
+
+.main-left h1{
+	font-size: 2em;
+	margin-left:5%;
+	margin-bottom:0px;
+}
+
+/*skills*/
+
+#right-top{
+	display:block;
+	color:white;
+	text-align: center;
+	margin-right:0px;
+}
+
+#right-top > p{
+	font-size: 1.2em;
+}
+
+#right-top > div > ul{
+	display:block !important;
+}
+
+#content {
+  	overflow: hidden;
+	margin:0px auto;
+	display: block;
+	text-align: left;
+	width:102%;
+}
+
+.visible {
+  	font-weight: 600;
+  	overflow: hidden;
+  	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	color:white;
+	margin-top:10px;
+}
+
+.content p {
+  display: inline-block;
+  margin: 0;
+  margin-left:-40%;
+}
+
+.content ul {
+  margin-top: 0;
+  padding-left: 80px;
+  text-align: left;
+  list-style: none;
+  -webkit-animation: 10s linear 0s alternate both infinite change;
+          animation: 10s linear 0s alternate both infinite change;
+}
+
+.content ul li {
+  line-height: 40px;
+  margin: 0;
+	padding-left: 100px;
+}
+
+.content li{
+	display: list-item;
+}
+
+
+@keyframes change {
+	1%,10%		{transform:translateY(0);}
+  11%,21%	 	{transform:translateY(-12.5%);}
+  22%,32% 	{transform:translateY(-25%);}
+	33%,43%  	{transform:translateY(-37.5%);}
+  44%,54% 	{transform:translateY(-50%);}
+	55%,65%  	{transform:translateY(-62.5%);}
+  66%,76%  	{transform:translateY(-75%);}
+	77%,87%  	{transform:translateY(-87.5%);}
+  88%,100%  {transform:translateY(-100%);}
+}
+
+
+/*Arrow Animations*/
+
+#secondarrows{
+	margin-top:14%;
+}
+
+.arrow {
+	color:white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+	margin-left:46%;
+	padding-top: 1%;
+}
+
+.arrow2 {
+	margin-top:1%;
+	margin-left:46%;
+	color:white;
+    width: 40px;
+    height: 40px;
+    font-size: 8em;
+    line-height: 40px;
+}
+
+
+
+
+/*Portfolio Grid Animations */
+
+#portfolio-container{
+	height:100%;
+	width:80%;
+	margin:0px auto;
+	margin-left:20%;
+}
+
+#portfolio-grid > div > figure > figcaption > p{
+	font-size:.5em;
+}
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1000px;
+	list-style: none;
+	height:100%;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: .5% .5%;
+	min-width: 25%;
+	width: 10%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: .7em;
+}
+
+/*Milo effect = animation when you hover over the portfolio grid */
+figure.effect-milo {
+	background: #2e5d5a;
+}
+
+figure.effect-milo img {
+	max-width: none;
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-30px,0,0) scale(1.12);
+	transform: translate3d(-30px,0,0) scale(1.12);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-milo:hover img {
+	opacity: 0.5;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+
+figure.effect-milo h2 {
+	position: absolute;
+	right: 20%;
+	bottom: 20%;
+	padding: 1em 1.2em;
+}
+
+figure.effect-milo p {
+	padding: 0 10px 0 0;
+	width: 50%;
+	border-right: 1px solid #fff;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-40px,0,0);
+	transform: translate3d(-40px,0,0);
+}
+
+figure.effect-milo:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/*TILT*/
+.tilt {
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-30deg);
+     -moz-transform: rotate(-30deg);
+       -o-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+
+/*Parallax*/
+a[id= "nav1"]:target ~ #main article.article {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[id= "nav2"]:target ~ #main article.article {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[id= "nav3"]:target ~ #main article.article {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+
+
+.article {
+    width: 100%;
+    height: 500px;
+    z-index:0;
+	padding-top:5%;
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+		margin-right:5%;
+}
+
+/*Responsive Design*/
+
+@media (max-width: 1020px) {
+  #mobile-nav{
+       display: inline-block;
+       float:right;
+       height:100%;
+       vertical-align: middle;
+       z-index: 999;
+	   backgroubd:white;
+    }
+
+    #mobile-nav > div.responsive-menu > ul{
+      width:100px;
+      z-index: 1015 !important;
+      float:left;
+    }
+
+    #mobile-nav li {
+        display:block;
+        float:left;
+        list-style:none;
+        font-size:1.5em !important;
+        padding-right:1%;
+    }
+
+    #mobile-nav ul{
+      width: 90px;
+      padding-left:0px;
+      float:none;
+      margin-left:2px;
+    }
+
+    #mobile-nav > div.responsive-menu > ul > li > a{
+        text-decoration: none;
+        display: block;
+        padding:2%;
+        width:150px;
+      }
+
+
+    #mobile-nav a {
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:black;
+        transition:color linear 0.15s;
+        font-size: .90em;
+    }
+
+    #mobile-nav a:hover, #mobile-nav.current-item a {
+        text-decoration:none;
+        background-color:MEDIUMTURQUOISE;
+		font-size:1em;
+		/*color:white;*/
+    }
+
+      .right-header li{
+        display:none;
+      }
+
+      #menu-btn{
+         position: absolute;
+         font-size: 18px;
+         font-weight: 200;
+         margin-top:2.5%;
+         left:85%;
+		 background: black;
+		 color:white;
+		 border:none;
+		 outline:none !important;
+      }
+
+      #menu-btn span {
+         display: block;
+         width: 19px;
+         height: 3px;
+         margin: 4px 0;
+         background: rgb(0,0,0);
+         z-index: 99;
+      }
+
+	  #menu-btn span:hover {
+		background:teal;
+	  }
+
+      .responsive-menu{
+        position:fixed;
+		top:8%;
+        right: 10%;
+        display: inline-block;
+        background:ghostwhite;
+        border-radius: 5px;
+        width: 150px;
+        padding-bottom: 1%;
+		padding-right:2%;
+        text-align: center;
+        z-index: 1015 !important;
+		font-size:.7em;
+      }
+
+      .responsive-menu li{
+        display: inline-block;
+      }
+
+      .submenu { z-index: 1; }
+
+      #header > div.fixed > ul{
+        width:30%;
+      }
+
+}
+
+@media (max-width: 900px) {
+	#right-top{
+		font-size:.8em;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	#greeting{
+		font-size:1.5em !important;
+	}
+
+	#right-top p{
+		font-size:1em;
+	}
+	#elasticstack > li{
+		width: 300px !important;
+		height: 280px !important;
+	}
+	.elasticstack li h5{
+		font-size:1em !important;
+	}
+
+	#firstarrows{
+		width:85%;
+	}
+
+	#secondarrows{
+		width:85%;
+	}
+
+	.grid figure{
+		float:none;
+		width:75%;
+	}
+
+	#portfolio-container{
+		height:200%;
+	}
+
+	#grid1{
+		height:100%:
+	}
+
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+#greeting{
+	font-size:2em;
+	margin-bottom: 5%;
+	text-align: left !important;
+}
+
+/*MODAL CSS and CENTERING*/
+.modal {
+	padding:3%;
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+	padding:3%;
+	text-align: center;
+	background:rgba(248,248,255,.90);
+}
+.to_site{
+	background: MEDIUMTURQUOISE;
+	border:none;
+	border-radius:5px;
+	color:white;
+	padding:1.5%;
+}
+
+.modalimage{
+	width: 50%;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 3%;
+}
+
+.clear{
+	clear:both;
+}
