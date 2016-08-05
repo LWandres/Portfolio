@@ -622,6 +622,15 @@ a[id= "nav3"]:target ~ #main article.article {
         width:30%;
       }
 
+	  figure.effect-milo h2{
+		  font-size:1.2em !important;
+		  bottom:25%;
+	  }
+
+	  figure.effect-milo p{
+		  font-size:.5em;
+	  }
+
 }
 
 @media (max-width: 900px) {

@@ -85,11 +85,11 @@
             <!-- Sortable -->
             <div id="sortable-force" class="col-md-2">
                 <ul id="sortable">
-                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/Sort2.png"></li>
-                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/Sort4.png"></li>
-                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/Sort1.png"></li>
-                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/Sort5.png"></li>
-                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/Sort3.png"></li>
+                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/sort2.png"></li>
+                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/sort4.png"></li>
+                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/sort1.png"></li>
+                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/sort5.png"></li>
+                    <li class="ui-state-default"><img id="img_sort" src="/../../assets/images/starwarsimages/sort3.png"></li>
                 </ul>
                 <h2>Sortable Puzzle</h2>
                 <p>Use the force to reassemble the image</p>

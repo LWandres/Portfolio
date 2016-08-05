@@ -146,7 +146,7 @@
         <article class="article col-md-12" id="nav2"><br><br><br>
 
             <ul id="elasticstack" class="elasticstack">
-                <li><img src="/assets/images/about.png" alt="02"/><h5>Nice to meet you!</h5></li>
+                <li><img src="/assets/images/About.png" alt="02"/><h5>Nice to meet you!</h5></li>
                 <li><img src="/assets/images/goldengate.jpg" alt="03"/><h5>This is home. The view doesn't get old :) </h5></li>
                 <li><img src="/assets/images/mobile.png" alt="04" /><h5>I code web and mobile applications</h5></li>
                 <li><img src="/assets/images/UX.png" alt="04"/><h5> & enjoy designing experiences users will <i class="fa fa-heart-o pink" aria-hidden="true">.</i></h5></li>
@@ -185,8 +185,8 @@
                         <img src="/assets/images/letters4animals.jpeg" alt="img03" />
                         <figcaption>
                             <h2>Letters <span>4Animals</span></h2>
-                            <p>Site encourages civic engagement through automation of letter writing.<br><br>
-                               Uses: MEAN Stack, GoogleCivics API</p>
+                            <p>Promotes civic engagement through automatic letter creation.<br><br>
+                               Uses: Angular,Node,Postgres,GoogleCivics API</p>
                             <a data-toggle="modal" data-target="#L4AModal" href=""></a>
                         </figcaption>
                     </figure>
