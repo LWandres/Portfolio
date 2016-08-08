@@ -432,7 +432,7 @@
                    Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
                    NOTE: Please use Google Chrome for this demo.</br><br>
-                <a href="/main/OOPDemo"><button class="to_site">TO THE SITE</button></a>
+                <a href="/main/OOPDemo" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="http://github.com/LWandres/OOPDemo" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
