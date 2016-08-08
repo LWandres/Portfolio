@@ -159,7 +159,7 @@
                 <li><img src="/assets/images/mobile.png" alt="04" /><h5>I code web and mobile applications</h5></li>
                 <li><img src="/assets/images/UX.png" alt="04"/><h5> & enjoy designing experiences users will <i class="fa fa-heart-o pink" aria-hidden="true">.</i></h5></li>
                 <li><img src="/assets/images/realms.png" alt="06" /><h5>I've worked in non-profit & for-profit realms</h5></li>
-                <li><img src="/assets/images/technical.png" alt="06" /><h5>in technical & non-technical roles..</h5></li>
+                <li><img src="/assets/images/technical.png" alt="06" /><h5>in technical & non-tech roles...</h5></li>
                 <li><img src="/assets/images/impact.png" alt="05" /><h5>and am looking to "do good" with my code.</h5></li>
                 <li><img src="/assets/images/brain.png" alt="05" /><h5>I'm a creative problem solver</h5></li>
                 <li><img src="/assets/images/trust.png" alt="05" /><h5>who builds strong relationships & trust</h5></li>
@@ -189,23 +189,24 @@
 
             <div id="portfolio-container">
                 <div id="grid1" class="grid"><!-- first row of boxes begins -->
-                    <figure class="effect-milo L4A">
-                        <img src="/assets/images/letters4animals.jpeg" alt="img03" />
-                        <figcaption>
-                            <h2>Letters <span>4Animals</span></h2>
-                            <p>Promotes civic engagement through automatic letter creation.<br><br>
-                             <span class="uses"> Uses:Angular,<br>Node,Postgres</p></span>
-                            <a data-toggle="modal" data-target="#L4AModal" href=""></a>
-                        </figcaption>
-                    </figure>
 
                     <figure class="effect-milo FTMAC">
                         <img src="/assets/images/fire.jpeg" alt="img03" />
                         <figcaption>
                             <h2>Fort <span>McMurray</span></h2>
                             <p> Raised funds for Fort McMurray wildfire victims<br><br>
-                            <span class="uses"> Front-end & responsive design.</p></span>
+                            <span class="uses"> Front-end & responsive design</p></span>
                             <a data-toggle="modal" data-target="#FMModal" href=""></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="effect-milo L4A">
+                        <img src="/assets/images/letters4animals.jpeg" alt="img03" />
+                        <figcaption>
+                            <h2>Letters <span>4Animals</span></h2>
+                            <p>Promotes civic engagement through automatic letter creation<br><br>
+                             <span class="uses"> Uses:Angular,<br>Node,Postgres</p></span>
+                            <a data-toggle="modal" data-target="#L4AModal" href=""></a>
                         </figcaption>
                     </figure>
 
@@ -213,23 +214,13 @@
                         <img src="/assets/images/pm.jpeg" alt="img11" />
                         <figcaption>
                             <h2>Project <span>Managed</span></h2>
-                            <p>A PHP web-based agenda & meeting manager.<br><br>
-                            <span class="uses"> Uses: PHP, SQL,jQuery,APIs.</p></span>
+                            <p>A PHP web-based agenda & meeting manager<br><br>
+                            <span class="uses"> Uses: PHP, SQL,jQuery,APIs</p></span>
                             <a data-toggle="modal" data-target="#PMModal" href=""></a>
                         </figcaption>
                     </figure>
 
                     <br class="clear">
-
-                    <figure class="effect-milo SH">
-                        <img src="/assets/images/shudidoo.jpg" alt="img03" />
-                        <figcaption>
-                            <h2>Shudi<span>doo </span></h2>
-                            <p>IOS App that suggests location-based activities<br><br>
-                            <span class="uses"> Uses: Swift/IOS, SQL, PHP, CoreLocation, GoogleMaps API.</p></span>
-                            <a data-toggle="modal" data-target="#SDModal" href=""></a>
-                        </figcaption>
-                    </figure>
 
                     <figure class="effect-milo CHAT">
                         <img src="/assets/images/chatroom.png" alt="img11" />
@@ -240,6 +231,17 @@
                             <a data-toggle="modal" data-target="#ChatModal" href=""></a>
                         </figcaption>
                     </figure>
+
+                    <figure class="effect-milo SH">
+                        <img src="/assets/images/shudidoo.jpg" alt="img03" />
+                        <figcaption>
+                            <h2>Shudi<span>doo </span></h2>
+                            <p>IOS App that suggests location-based activities<br><br>
+                            <span class="uses"> Uses: Swift/IOS, SQL, PHP, CoreLocation, GoogleMaps API</p></span>
+                            <a data-toggle="modal" data-target="#SDModal" href=""></a>
+                        </figcaption>
+                    </figure>
+
                     <figure class="effect-milo WALL">
                         <img src="/assets/images/wall.png" alt="img03" />
                         <figcaption>
@@ -267,8 +269,8 @@
                         <img src="/assets/images/customers.png" alt="img03" />
                         <figcaption>
                             <h2><span>MINI-STORE</span></h2>
-                            <p>Sample E-Commerce Website to manage customers & orders.<br><br>
-                                 <span class="uses">  Uses: MEAN Stack.</p></span>
+                            <p>Sample E-Commerce Website to manage customers & orders<br><br>
+                                 <span class="uses">  Uses: MEAN Stack</p></span>
                             <a data-toggle="modal" data-target="#StoreModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -301,7 +303,7 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/ProjectManaged.png" alt="ProjectManaged.png" class="modalimage">
-                <p>Inspired by years as an IT project manager, I created a web-application that helps users automate tedious project management tasks.
+                <p>Inspired by years as an IT project manager, I conceptualized and created a web-application that helps users automate tedious project management tasks.
                     From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
                     send out automatic follow-up reminders to tagged meeting participants.</p>
                 <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS<br>
@@ -328,7 +330,7 @@
                 <img src="/assets/images/FtMac.png" alt="FortMac.png" class="modalimage">
                 <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All procceds are going to the United Way of Fort McMurray for distribution.</p>
                 <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets<br>
-                <p>Involvement: Group Project- Implemented Front-End</p>
+                <p>Involvement: Group Project - Implemented Front-End</p>
                 <a href="http://www.fortmcmurrayrelieffund.com/" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" target="_top"><button class="to_site">READ ABOUT THE FIRE</button></a>
               </div>
@@ -349,11 +351,11 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/L4A.png" alt="Letters4Animals.png" class="modalimage">
-                <p>Letters4Animals strives to increase and promote civic engagement through automating letters to policial officials.
-                    Users choose a cause they care about, enter basic address information, and the site auto-generates a pre-templated letter
-                    that includes the users' specific political representatives. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.
+                <p> Letters4Animals strives to increase and promote civic engagement through automating letters to political officials.
+                    Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
+                    to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.
                 <p>Technologies: Express.js, Angular.js, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
-                <p>Involvement: Group Project- Full Stack Developer.</p>
+                <p>Involvement: Group Project - Full Stack Developer.</p>
                 <a href="http://54.187.97.10" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="http://github.com/dallals/Letters4Animals" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
@@ -382,8 +384,8 @@
                 <p>Users are able to store "To-Do" tasks and find nearby locations where they can complete them using the Google Places API.
                    The App also suggests nearby activities for users to experience on days when they are looking to try something new.<br><br>
                    Technologies: Swift, iOS, CoreLocation, SQL Google Places API<br><br>
-                   Involvement: Group Project- Full-Stack Mobile Developer</p>
-                <a href=""><button class="to_site">GITHUB REPO COMING SOON <br>(Currently refactoring)</button></a>
+                   Involvement: Group Project - Full-Stack Mobile Developer</p>
+                <button class="to_site">GITHUB REPO COMING SOON <br>(Currently refactoring)</button>
               </div>
             </div>
           </div>
@@ -405,9 +407,9 @@
                 <img src="/assets/images/ChatRoom1.png" alt="OOP.png" class="modalimage">
                 <img src="/assets/images/ChatRoom2.png" alt="OOP.png" class="modalimage">
 
-                <p>A straightforward user Chat Room where users can communicate in real-time</p>
+                <p>A straightforward Chat Room where users can communicate in real-time.</p>
                    Technologies: Node.js, Express.js, MongoDB, Socket.io, HTML/CSS, jQuery<br><br>
-                   Involvement: Individual Project-  Web Developer</p>
+                   Involvement: Individual Project -  Web Developer</p>
                 <a href="http://52.37.34.146" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="https://github.com/LWandres/Chat_Room" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
@@ -428,7 +430,7 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/OOP.png" alt="OOP.png" class="modalimage">
-                <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p>
+                <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p><br>
                    Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
                    NOTE: Please use Google Chrome for this demo.</br><br>
@@ -453,9 +455,9 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/TheWall.png" alt="TheWall.png" class="modalimage">
-                <p>A Basic Web-Forum for Online Discussion.</p>
+                <p>A Web-Forum for Online Discussion.</p>
                    Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
-                   Involvement: Individual Project- Full-Stack Web Developer</p>
+                   Involvement: Individual Project - Full-Stack Web Developer</p>
                 <a href="http://52.32.116.49" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="https://github.com/LWandres/TheWall" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
@@ -477,7 +479,7 @@
               </div>
               <img src="/assets/images/Mini-Store.png" alt="Mini-Store.png" class="modalimage">
               <div class="modal-body">
-                <p>A basic back-end administration portal for a mock company to manage their customers, products, and orders.</p>
+                <p>A back-end administration portal for a mock company to manage their customers, products, and orders.</p>
                    Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
                    Involvement: Individual Project- Full-Stack Web Developer</p>
                 <a href="http://52.43.15.209/" target="_top"><button class="to_site">TO THE SITE</button></a>
@@ -501,9 +503,9 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/star_wars.png" alt="star_wars.png" class="modalimage">
-                <p>A basic interactive jQuery site themed after Star Wars.</p>
+                <p>An interactive jQuery site themed after Star Wars.</p>
                    Technologies: HTML/CSS, jQuery<br><br>
-                   Involvement: Individual Project- Web Developer</p>
+                   Involvement: Individual Project - Web Developer</p>
                 <a href="/main/starwars" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>

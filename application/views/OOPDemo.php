@@ -15,9 +15,11 @@
 	<div id="instructions">
 		<h2>WELCOME TO THE CIRCLES OOP DEMO</h2>
 		<p>This site demonstrates simple Object Oriented Programming in action.<br>
-		   Click, or hold down the mouse momentarily anywhere on the blue screen to get started!</p>
-		<p>Note: Please use Google Chrome for this demo.<br>
+		   Click, or hold down the mouse momentarily anywhere on the web-page to get started!<br>
+	   	   Your circle will change depending on how long you hold down the mouse.<br></p>
+		<p>Note: Please use Google Chrome for this demo.<br><br>
 			 This site also plays audio, so be sure to have your headphones ready.</p>
+			 BONUS POINTS: Can you guess what song the circles play?<br><br>
 		<button id="submit" name="submit">OKAY, GOT IT. LET'S DO THIS.</button>
 	</div>
 
