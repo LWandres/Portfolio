@@ -351,7 +351,7 @@
                 <img src="/assets/images/L4A.png" alt="Letters4Animals.png" class="modalimage">
                 <p>Letters4Animals strives to increase and promote civic engagement through automating letters to policial officials.
                     Users choose a cause they care about, enter basic address information, and the site auto-generates a pre-templated letter
-                    that includes the users' specific political representatives.
+                    that includes the users' specific political representatives. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.
                 <p>Technologies: Express.js, Angular.js, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
                 <p>Involvement: Group Project- Full Stack Developer.</p>
                 <a href="http://54.187.97.10" target="_top"><button class="to_site">TO THE SITE</button></a>
@@ -432,7 +432,7 @@
                    Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
                    NOTE: Please use Google Chrome for this demo.</br><br>
-                <a href="/main/OOPDemo" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="/main/OOPDemo"><button class="to_site">TO THE SITE</button></a>
                 <a href="http://github.com/LWandres/OOPDemo" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
@@ -475,6 +475,7 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h3 class="modal-title">MINI-STORE - 2016</h3>
               </div>
+              <img src="/assets/images/Mini-Store.png" alt="Mini-Store.png" class="modalimage">
               <div class="modal-body">
                 <p>A basic back-end administration portal for a mock company to manage their customers, products, and orders.</p>
                    Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
