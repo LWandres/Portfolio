@@ -64,6 +64,14 @@
             }
         });
 
+    //Google Analytics
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-82133906-1', 'auto');
+      ga('send', 'pageview');
 
     </script>
 </head>
@@ -186,7 +194,7 @@
                         <figcaption>
                             <h2>Letters <span>4Animals</span></h2>
                             <p>Promotes civic engagement through automatic letter creation.<br><br>
-                               Uses: Angular,Node,Postgres,GoogleCivics API</p>
+                             <span class="uses"> Uses:Angular,<br>Node,Postgres</p></span>
                             <a data-toggle="modal" data-target="#L4AModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -196,7 +204,7 @@
                         <figcaption>
                             <h2>Fort <span>McMurray</span></h2>
                             <p> Raised funds for Fort McMurray wildfire victims<br><br>
-                                Front-end & responsive design.</p>
+                            <span class="uses"> Front-end & responsive design.</p></span>
                             <a data-toggle="modal" data-target="#FMModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -205,8 +213,8 @@
                         <img src="/assets/images/pm.jpeg" alt="img11" />
                         <figcaption>
                             <h2>Project <span>Managed</span></h2>
-                            <p>Web-based agenda & meeting CRM.<br><br>
-                                Uses: PHP, SQL,jQuery,APIs.</p>
+                            <p>A PHP web-based agenda & meeting manager.<br><br>
+                            <span class="uses"> Uses: PHP, SQL,jQuery,APIs.</p></span>
                             <a data-toggle="modal" data-target="#PMModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -218,8 +226,8 @@
                         <figcaption>
                             <h2>Shudi<span>doo </span></h2>
                             <p>IOS App that suggests location-based activities<br><br>
-                                Uses: Swift/IOS, SQL, PHP, CoreLocation, GoogleMaps API.</p>
-                                <a data-toggle="modal" data-target="#SDModal" href=""></a>
+                            <span class="uses"> Uses: Swift/IOS, SQL, PHP, CoreLocation, GoogleMaps API.</p></span>
+                            <a data-toggle="modal" data-target="#SDModal" href=""></a>
                         </figcaption>
                     </figure>
 
@@ -227,8 +235,8 @@
                         <img src="/assets/images/chatroom.png" alt="img11" />
                         <figcaption>
                             <h2>Chat<span>Room</span></h2>
-                            <p>Web App that faciliates live chat functionality
-                                <br> Uses: Web Sockets, Node.js, Express.js, jQuery </p>
+                            <p> Express and Socket Web App that faciliates live chat functionality<br>
+                             <span class="uses"><br> Uses: Web Sockets, Node.js, Express.js, jQuery </p></span>
                             <a data-toggle="modal" data-target="#ChatModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -236,8 +244,8 @@
                         <img src="/assets/images/wall.png" alt="img03" />
                         <figcaption>
                             <h2>THE<span>WALL</span></h2>
-                            <p>Web Discussion Forum<br><br>
-                                Uses: MEAN Stack, HTML, CSS, jQuery, Sockets</p>
+                            <p>A MEAN Stack Web Discussion Forum<br><br>
+                            <span class="uses"> Uses: MEAN Stack, HTML, CSS, jQuery, Sockets</p></span>
                             <a data-toggle="modal" data-target="#WallModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -249,7 +257,7 @@
                         <figcaption>
                             <h2>OOP</h2>
                             <p>Mini-Demo of Object Oriented Programming in Action<br><br>
-                                Uses: OOP, JavaScript, HTML, CSS, jQuery</p>
+                             <span class="uses"> Uses: OOP, JavaScript, HTML, CSS, jQuery</p></span>
                                 <a data-toggle="modal" data-target="#OOPModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -260,7 +268,7 @@
                         <figcaption>
                             <h2><span>MINI-STORE</span></h2>
                             <p>Sample E-Commerce Website to manage customers & orders.<br><br>
-                                 Uses: MEAN Stack.</p>
+                                 <span class="uses">  Uses: MEAN Stack.</p></span>
                             <a data-toggle="modal" data-target="#StoreModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -270,7 +278,7 @@
                         <figcaption>
                             <h2>jQUERY<span>Demo</span></h2>
                             <p>Quick demo of simple jQuery functions<br><br>
-                                Uses: jQUERY, HTML, CSS</p>
+                             <span class="uses"> Uses: jQUERY, HTML, CSS</p></span>
                             <a data-toggle="modal" data-target="#jQueryModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -298,8 +306,8 @@
                     send out automatic follow-up reminders to tagged meeting participants.</p>
                 <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS<br>
                 <p>Involvement: Individual Full-Stack Development</p>
-                <a href="//52.40.19.212"><button class="to_site">TO THE SITE</button></a>
-                <a href="//github.com/LWandres/Project-Managed-Final"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.40.19.212"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://github.com/LWandres/Project-Managed-Final"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -321,8 +329,8 @@
                 <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All procceds are going to the United Way of Fort McMurray for distribution.</p>
                 <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets<br>
                 <p>Involvement: Group Project- Implemented Front-End</p>
-                <a href="//www.fortmcmurrayrelieffund.com/"><button class="to_site">TO THE SITE</button></a>
-                <a href="//en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire"><button class="to_site">READ ABOUT THE FIRE</button></a>
+                <a href="http://www.fortmcmurrayrelieffund.com/"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire"><button class="to_site">READ ABOUT THE FIRE</button></a>
               </div>
             </div>
           </div>
@@ -344,10 +352,10 @@
                 <p>Letters4Animals strives to increase and promote civic engagement through automating letters to policial officials.
                     Users choose a cause they care about, enter basic address information, and the site auto-generates a pre-templated letter
                     that includes the users' specific political representatives.
-                <p>Technologies: Express.js, Angular.js, Node,js, Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
+                <p>Technologies: Express.js, Angular.js, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
                 <p>Involvement: Group Project- Full Stack Developer.</p>
-                <a href="//54.187.97.10"><button class="to_site">TO THE SITE</button></a>
-                <a href="//github.com/dallals/Letters4Animals"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://54.187.97.10"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://github.com/dallals/Letters4Animals"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -400,8 +408,8 @@
                 <p>A straightforward user Chat Room where users can communicate in real-time</p>
                    Technologies: Node.js, Express.js, MongoDB, Socket.io, HTML/CSS, jQuery<br><br>
                    Involvement: Individual Project-  Web Developer</p>
-                <a href=""><button class="to_site">TO THE SITE</button></a>
-                <a href="//github.com/LWandres/Chat-Room"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.37.34.146"><button class="to_site">TO THE SITE</button></a>
+                <a href="https://github.com/LWandres/Chat_Room"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -425,7 +433,7 @@
                    Involvement: Individual Project- Web Developer</p>
                    NOTE: Please use Google Chrome for this demo.</br><br>
                 <a href="/main/OOPDemo"><button class="to_site">TO THE SITE</button></a>
-                <a href="//github.com/LWandres/OOPDemo"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://github.com/LWandres/OOPDemo"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -448,8 +456,8 @@
                 <p>A Basic Web-Forum for Online Discussion.</p>
                    Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
                    Involvement: Individual Project- Full-Stack Web Developer</p>
-                <a href=""><button class="to_site">TO THE SITE</button></a>
-                <a href="//github.com/LWandres/TheWall"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.32.116.49"><button class="to_site">TO THE SITE</button></a>
+                <a href="https://github.com/LWandres/TheWall"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -471,8 +479,8 @@
                 <p>A basic back-end administration portal for a mock company to manage their customers, products, and orders.</p>
                    Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
                    Involvement: Individual Project- Full-Stack Web Developer</p>
-                <a href=""><button class="to_site">TO THE SITE</button></a>
-                <a href="//github.com/LWandres/Mini-Store"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.43.15.209/"><button class="to_site">TO THE SITE</button></a>
+                <a href="https://github.com/LWandres/Mini-Store"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -496,16 +504,13 @@
                    Technologies: HTML/CSS, jQuery<br><br>
                    Involvement: Individual Project- Web Developer</p>
                 <a href="/main/starwars"><button class="to_site">TO THE SITE</button></a>
-                <a href="//github.com/LWandres/Star_Wars-jQuery-Demo"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
       </div>
     </div>
     <!-- End Mini-Store Modal -->
-
-
-
 
 
 </body>

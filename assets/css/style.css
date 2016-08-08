@@ -8,7 +8,7 @@ body{
 
 h1{
 	color:white;
-	margin-left: 5%;
+	margin-left: 3%;
 	font-size:2em;
 	text-align: center;
 }
@@ -19,7 +19,7 @@ h1{
 	top:0;
 	width:100% !important;
 	z-index: 1;
-	width: 100%;
+	width: 102%;
 }
 
 .fixed{
@@ -305,10 +305,10 @@ h1{
 
 .arrow {
 	color:white;
-    width: 40px;
+    width: 90px;
     height: 40px;
     line-height: 40px;
-	margin-left:46%;
+	margin:0px auto;
 	padding-top: 1%;
 }
 
@@ -413,7 +413,7 @@ h1{
 
 .grid figure p {
 	letter-spacing: 1px;
-	font-size: .7em;
+	font-size: .6em;
 }
 
 /*Milo effect = animation when you hover over the portfolio grid */
@@ -448,8 +448,8 @@ figure.effect-milo h2 {
 }
 
 figure.effect-milo p {
-	padding: 0 10px 0 0;
-	width: 50%;
+	padding: 0 20px 0 0;
+	width: 58%;
 	border-right: 1px solid #fff;
 	text-align: right;
 	opacity: 0;
@@ -599,14 +599,14 @@ a[id= "nav3"]:target ~ #main article.article {
 
       .responsive-menu{
         position:fixed;
-		top:8%;
+		top:50px;
         right: 10%;
         display: inline-block;
         background:ghostwhite;
         border-radius: 5px;
         width: 150px;
         padding-bottom: 1%;
-		padding-right:2%;
+		padding-right:1.2%;
         text-align: center;
         z-index: 1015 !important;
 		font-size:.7em;
@@ -621,14 +621,13 @@ a[id= "nav3"]:target ~ #main article.article {
       #header > div.fixed > ul{
         width:30%;
       }
-
 	  figure.effect-milo h2{
 		  font-size:1.2em !important;
 		  bottom:25%;
 	  }
 
 	  figure.effect-milo p{
-		  font-size:.5em;
+		  font-size:.5em !important;
 	  }
 
 }
@@ -638,6 +637,9 @@ a[id= "nav3"]:target ~ #main article.article {
 		font-size:.8em;
 	}
 
+	.uses{
+		display:none;
+	}
 }
 
 @media (max-width: 600px) {
@@ -659,6 +661,7 @@ a[id= "nav3"]:target ~ #main article.article {
 
 	#firstarrows{
 		width:85%;
+		margin-top:15%;
 	}
 
 	#secondarrows{
@@ -677,9 +680,17 @@ a[id= "nav3"]:target ~ #main article.article {
 	#grid1{
 		height:100%:
 	}
+	.responsive-menu{
+		top:50px;
+	}
+	#content > img{
+		width:30%;
+	}
 
+	#right-top > p{
+		font-size: 1.5em;
+	}
 }
-
 
 a{
 	text-decoration: none;
