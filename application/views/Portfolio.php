@@ -84,9 +84,9 @@
                 <div class="right-header">
                     <li><a href="#nav2">ABOUT</a></li>
                     <li><a href="#nav3">PORTFOLIO</a></li>
-                    <li class="gmail tilt"><a href="//mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me"></a></li>
-                    <li class="linkedin tilt "><a href="//www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin"><span> </span></a></li>
-                    <li class="github tilt"><a href="//github.com/LWandres" title="GitHub"><span></span></a></li>
+                    <li class="gmail tilt"><a href="//mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me" target="_top"></a></li>
+                    <li class="linkedin tilt "><a href="//www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top"><span> </span></a></li>
+                    <li class="github tilt"><a href="//github.com/LWandres" title="GitHub" target="_top"><span></span></a></li>
                 </div>
             </ul>
         </nav>
@@ -108,9 +108,9 @@
                 <li><a href="#nav1">LAURA WANDRES</a></li>
                 <li><a href="#nav2">ABOUT</a></li>
                 <li><a href="#nav3">PORTFOLIO</a></li>
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me">GMAIL</a></li>
-                <li class="linkedin"><a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin">LINKEDIN</a></li>
-                <li class="github"><a href="https://github.com/LWandres" title="GitHub">GITHUB</a></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me" target="_top">GMAIL</a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top">LINKEDIN</a></li>
+                <li class="github"><a href="https://github.com/LWandres" title="GitHub" target="_top">GITHUB</a></li>
             </ul>
         </div>
     </div>
@@ -167,10 +167,10 @@
                 <li><img src="/assets/images/activities.png" alt="06" /><h5>In my spare time I enjoy...</h5></li>
                 <li>
                     <div id="contactpic">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me" target="_top">
                             <button id="gmail">GMAIL ME</button>
                         </a>
-                        <a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin">
+                        <a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top">
                             <button id="linkedin">CONNECT ON LINKEDIN</button>
                         </a>
                     </div>
@@ -306,8 +306,8 @@
                     send out automatic follow-up reminders to tagged meeting participants.</p>
                 <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS<br>
                 <p>Involvement: Individual Full-Stack Development</p>
-                <a href="http://52.40.19.212"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/LWandres/Project-Managed-Final"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.40.19.212" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://github.com/LWandres/Project-Managed-Final" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -329,8 +329,8 @@
                 <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All procceds are going to the United Way of Fort McMurray for distribution.</p>
                 <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets<br>
                 <p>Involvement: Group Project- Implemented Front-End</p>
-                <a href="http://www.fortmcmurrayrelieffund.com/"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire"><button class="to_site">READ ABOUT THE FIRE</button></a>
+                <a href="http://www.fortmcmurrayrelieffund.com/" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" target="_top"><button class="to_site">READ ABOUT THE FIRE</button></a>
               </div>
             </div>
           </div>
@@ -354,8 +354,8 @@
                     that includes the users' specific political representatives.
                 <p>Technologies: Express.js, Angular.js, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
                 <p>Involvement: Group Project- Full Stack Developer.</p>
-                <a href="http://54.187.97.10"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/dallals/Letters4Animals"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://54.187.97.10" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://github.com/dallals/Letters4Animals" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -408,8 +408,8 @@
                 <p>A straightforward user Chat Room where users can communicate in real-time</p>
                    Technologies: Node.js, Express.js, MongoDB, Socket.io, HTML/CSS, jQuery<br><br>
                    Involvement: Individual Project-  Web Developer</p>
-                <a href="http://52.37.34.146"><button class="to_site">TO THE SITE</button></a>
-                <a href="https://github.com/LWandres/Chat_Room"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.37.34.146" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="https://github.com/LWandres/Chat_Room" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -432,8 +432,8 @@
                    Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
                    NOTE: Please use Google Chrome for this demo.</br><br>
-                <a href="/main/OOPDemo"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/LWandres/OOPDemo"><button class="to_site">TO GITHUB</button></a>
+                <a href="/main/OOPDemo" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://github.com/LWandres/OOPDemo" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -456,8 +456,8 @@
                 <p>A Basic Web-Forum for Online Discussion.</p>
                    Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
                    Involvement: Individual Project- Full-Stack Web Developer</p>
-                <a href="http://52.32.116.49"><button class="to_site">TO THE SITE</button></a>
-                <a href="https://github.com/LWandres/TheWall"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.32.116.49" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="https://github.com/LWandres/TheWall" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -479,8 +479,8 @@
                 <p>A basic back-end administration portal for a mock company to manage their customers, products, and orders.</p>
                    Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
                    Involvement: Individual Project- Full-Stack Web Developer</p>
-                <a href="http://52.43.15.209/"><button class="to_site">TO THE SITE</button></a>
-                <a href="https://github.com/LWandres/Mini-Store"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.43.15.209/" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="https://github.com/LWandres/Mini-Store" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
@@ -503,8 +503,8 @@
                 <p>A basic interactive jQuery site themed after Star Wars.</p>
                    Technologies: HTML/CSS, jQuery<br><br>
                    Involvement: Individual Project- Web Developer</p>
-                <a href="/main/starwars"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo"><button class="to_site">TO GITHUB</button></a>
+                <a href="/main/starwars" target="_top"><button class="to_site">TO THE SITE</button></a>
+                <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
             </div>
           </div>
