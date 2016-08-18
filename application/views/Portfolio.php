@@ -124,18 +124,18 @@
             <div id="content" class="col-md-12">
                 <div id="right-top">
                     <p><span id="greeting">Hi there!</span>
-                        <br> I'm a full-stack web developer and project manager (PMP)
+                        <br> I'm a full stack web developer and project manager (PMP)
                         <br> in the Greater San Francisco Area.
                         <div class='visible content'>
                             <p>I specialize in:</p>
                             <ul>
                                 <li>JavaScript</li>
                                 <li>PHP </li>
-                                <li>Swift/IOS</li>
-                                <li>HTML/CSS</li>
+                                <li>Swift/iOS</li>
+                                <li>AngularJS</li>
+                                <li>HTML5/CSS3</li>
                                 <li>Project Management</li>
                                 <li>Responsive Design</li>
-                                <li>Angular</li>
                                 <li>APIs</li>
                             </ul>
                         </div>
@@ -236,8 +236,8 @@
                         <img src="/assets/images/shudidoo.jpg" alt="img03" />
                         <figcaption>
                             <h2>Shudi<span>doo </span></h2>
-                            <p>IOS App that suggests location-based activities<br><br>
-                            <span class="uses"> Uses: Swift/IOS, SQL, PHP, CoreLocation, GoogleMaps API</p></span>
+                            <p>iOS App that suggests location-based activities<br><br>
+                            <span class="uses"> Uses: Swift/iOS, SQL, PHP, CoreLocation, GoogleMaps API</p></span>
                             <a data-toggle="modal" data-target="#SDModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -307,7 +307,7 @@
                     From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
                     send out automatic follow-up reminders to tagged meeting participants.</p>
                 <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS<br>
-                <p>Involvement: Individual Full-Stack Development</p>
+                <p>Involvement: Individual Full Stack Development</p>
                 <a href="http://52.40.19.212" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="http://github.com/LWandres/Project-Managed-Final" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
@@ -328,7 +328,7 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/FtMac.png" alt="FortMac.png" class="modalimage">
-                <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All procceds are going to the United Way of Fort McMurray for distribution.</p>
+                <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All proceeds are going to the United Way of Fort McMurray for distribution.</p>
                 <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets<br>
                 <p>Involvement: Group Project - Implemented Front-End</p>
                 <a href="http://www.fortmcmurrayrelieffund.com/" target="_top"><button class="to_site">TO THE SITE</button></a>
@@ -354,7 +354,7 @@
                 <p> Letters4Animals strives to increase and promote civic engagement through automating letters to political officials.
                     Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
                     to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.
-                <p>Technologies: Express.js, Angular.js, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
+                <p>Technologies: Express.js, AngularJS, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
                 <p>Involvement: Group Project - Full Stack Developer.</p>
                 <a href="http://54.187.97.10" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="http://github.com/dallals/Letters4Animals" target="_top"><button class="to_site">TO GITHUB</button></a>
@@ -384,7 +384,7 @@
                 <p>Users are able to store "To-Do" tasks and find nearby locations where they can complete them using the Google Places API.
                    The App also suggests nearby activities for users to experience on days when they are looking to try something new.<br><br>
                    Technologies: Swift, iOS, CoreLocation, SQL Google Places API<br><br>
-                   Involvement: Group Project - Full-Stack Mobile Developer</p>
+                   Involvement: Group Project - Full Stack Mobile Developer</p>
                 <button class="to_site">GITHUB REPO COMING SOON <br>(Currently refactoring)</button>
               </div>
             </div>
@@ -408,7 +408,7 @@
                 <img src="/assets/images/ChatRoom2.png" alt="OOP.png" class="modalimage">
 
                 <p>A straightforward Chat Room where users can communicate in real-time.</p>
-                   Technologies: Node.js, Express.js, MongoDB, Socket.io, HTML/CSS, jQuery<br><br>
+                   Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
                    Involvement: Individual Project -  Web Developer</p>
                 <a href="http://52.37.34.146" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="https://github.com/LWandres/Chat_Room" target="_top"><button class="to_site">TO GITHUB</button></a>
@@ -456,8 +456,8 @@
               <div class="modal-body">
                 <img src="/assets/images/TheWall.png" alt="TheWall.png" class="modalimage">
                 <p>A Web-Forum for Online Discussion.</p>
-                   Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
-                   Involvement: Individual Project - Full-Stack Web Developer</p>
+                   Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
+                   Involvement: Individual Project - Full Stack Web Developer</p>
                 <a href="http://52.32.116.49" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="https://github.com/LWandres/TheWall" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>
@@ -480,8 +480,8 @@
               <img src="/assets/images/Mini-Store.png" alt="Mini-Store.png" class="modalimage">
               <div class="modal-body">
                 <p>A back-end administration portal for a mock company to manage their customers, products, and orders.</p>
-                   Technologies: MEAN Stack (Mongo, Express.js, Angular.js, Node.js), Mongoose, HTML/CSS<br><br>
-                   Involvement: Individual Project- Full-Stack Web Developer</p>
+                   Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
+                   Involvement: Individual Project- Full Stack Web Developer</p>
                 <a href="http://52.43.15.209/" target="_top"><button class="to_site">TO THE SITE</button></a>
                 <a href="https://github.com/LWandres/Mini-Store" target="_top"><button class="to_site">TO GITHUB</button></a>
               </div>

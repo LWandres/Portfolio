@@ -504,13 +504,14 @@ a[id= "nav3"]:target ~ #main article.article {
     height: 500px;
     z-index:0;
 	padding-top:5%;
+	margin-right:5%;
+	margin-bottom:5%;
     -webkit-transform: translateZ( 0 );
     transform: translateZ( 0 );
     -webkit-transition: -webkit-transform 2s ease-in-out;
     transition: transform 2s ease-in-out;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-		margin-right:5%;
 }
 
 /*Responsive Design*/
