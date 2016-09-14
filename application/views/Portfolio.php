@@ -9,14 +9,12 @@
     <link href="/assets/css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/assets/css/component.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css" />
-
     <link rel="shortcut icon" href="../favicon.ico">
 
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
-
     <!-- js -->
     <script src="https://use.fontawesome.com/3f39a6e8d2.js"></script>
     <script src="/assets/js/jquery-3.1.0.min.js"></script>
@@ -190,13 +188,13 @@
             <div id="portfolio-container">
                 <div id="grid1" class="grid"><!-- first row of boxes begins -->
 
-                    <figure class="effect-milo FTMAC">
-                        <img src="/assets/images/fire.jpeg" alt="img03" />
+                    <figure class="effect-milo PM">
+                        <img src="/assets/images/pm.jpeg" alt="img11" />
                         <figcaption>
-                            <h2>Fort <span>McMurray</span></h2>
-                            <p> Raised funds for Fort McMurray wildfire victims<br><br>
-                            <span class="uses"> Front-end & responsive design</p></span>
-                            <a data-toggle="modal" data-target="#FMModal" href=""></a>
+                            <h2>Project <span>Managed</span></h2>
+                            <p>A PHP web-based agenda & meeting manager<br><br>
+                            <span class="uses"> Uses: PHP, SQL,jQuery,APIs</p></span>
+                            <a data-toggle="modal" data-target="#PMModal" href=""></a>
                         </figcaption>
                     </figure>
 
@@ -210,13 +208,13 @@
                         </figcaption>
                     </figure>
 
-                    <figure class="effect-milo PM">
-                        <img src="/assets/images/pm.jpeg" alt="img11" />
+                    <figure class="effect-milo FTMAC">
+                        <img src="/assets/images/fire.jpeg" alt="img03" />
                         <figcaption>
-                            <h2>Project <span>Managed</span></h2>
-                            <p>A PHP web-based agenda & meeting manager<br><br>
-                            <span class="uses"> Uses: PHP, SQL,jQuery,APIs</p></span>
-                            <a data-toggle="modal" data-target="#PMModal" href=""></a>
+                            <h2>Fort <span>McMurray</span></h2>
+                            <p> Raised funds for Fort McMurray wildfire victims<br><br>
+                            <span class="uses"> Front-end & responsive design</p></span>
+                            <a data-toggle="modal" data-target="#FMModal" href=""></a>
                         </figcaption>
                     </figure>
 
@@ -302,7 +300,7 @@
                 <h3 class="modal-title">PROJECT MANAGED- 1st Place in Hackathon - 2016</h3>
               </div>
               <div class="modal-body">
-                <img src="/assets/images/ProjectManaged.png" alt="ProjectManaged.png" class="modalimage">
+                <img src="/assets/images/PMManaged.png" alt="ProjectManaged.png" class="modalimage">
                 <p>Inspired by years as an IT project manager, I conceptualized and created a web-application that helps users automate tedious project management tasks.
                     From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
                     send out automatic follow-up reminders to tagged meeting participants.</p>
@@ -404,8 +402,7 @@
                 <h3 class="modal-title">CHAT ROOM - 2016</h3>
               </div>
               <div class="modal-body">
-                <img src="/assets/images/ChatRoom1.png" alt="OOP.png" class="modalimage">
-                <img src="/assets/images/ChatRoom2.png" alt="OOP.png" class="modalimage">
+                <img src="/assets/images/mainchat.png" alt="mainchat.png" class="modalimage">
 
                 <p>A straightforward Chat Room where users can communicate in real-time.</p>
                    Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
