@@ -90,7 +90,7 @@ h1{
 
 #ul-header > div > li.gmail{
 		margin-top:10px;
-    background: url(/assets/images/gmail.jpg);
+    	background: url(/assets/images/gmail.jpg);
 		background-repeat: no-repeat;
 		width:40px;
 }
@@ -151,6 +151,7 @@ h1{
 
 #contactpic a{
 	text-decoration: none;
+	text-align: center;
 }
 
 #elasticstack > li:nth-child(12) > h5{
@@ -270,17 +271,29 @@ h1{
   text-align: left;
   list-style: none;
   -webkit-animation: 10s linear 0s alternate both infinite change;
-          animation: 10s linear 0s alternate both infinite change;
+  animation: 10s linear 0s alternate both infinite change;
+}
+
+.content ul:hover {
+	webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 .content ul li {
   line-height: 40px;
   margin: 0;
-	padding-left: 100px;
+  padding-left: 100px;
 }
 
 .content li{
 	display: list-item;
+}
+
+h2.invisible{
+	color:black;
+	font-size: 0px;
 }
 
 
@@ -735,6 +748,7 @@ a{
 	border-radius:5px;
 	color:white;
 	padding:1.5%;
+	text-decoration: none !important;
 }
 
 .modalimage{

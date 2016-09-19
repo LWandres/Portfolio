@@ -1,0 +1,207 @@
+/*Base CSS for all elements*/
+body{
+	width:100%;
+	margin:0px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+/*header css*/
+#header{
+	height:5%;
+	top:0;
+	width:100% !important;
+	z-index: 1;
+	width: 102%;
+}
+
+.fixed{
+	position:fixed !important;
+	top:15px;
+	width:100%;
+	z-index: 1;
+}
+
+.fixednav {
+    position:fixed !important;
+    top:0;
+	width:100%;
+	z-index: 1;
+}
+
+#ul-header{
+	margin: 0px;
+	background-color:white;
+	border-bottom: solid 2px aliceblue;
+}
+
+#ul-header > li{
+	display: inline-block;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:7%;
+	color:black;
+	opacity: 1;
+	position:relative;
+}
+#ul-header > li > a{
+	color: black;
+	text-decoration: none;
+	padding-right: 50px;
+	font-size:1.3em;
+	opacity: 1;
+}
+
+#ul-header a:hover {
+  color: rgb(97, 208, 184);
+}
+
+#mobile-nav{
+  display:none;
+}
+
+.right-header{
+	margin: 0px;
+	display:inline-block;
+	float:right;
+	width:400px;
+	margin-right:10%;
+}
+
+.right-header> li >a{
+	color:black;
+	text-decoration: none;
+	padding: 20px;
+	vertical-align: bottom;
+}
+
+.right-header > li{
+	display: inline-block;
+	padding-top:10px;
+	padding-bottom:20px;
+	vertical-align: center;
+}
+
+#ul-header > div > li.gmail{
+		margin-top:10px;
+    background: url(/assets/images/gmail.jpg);
+		background-repeat: no-repeat;
+		width:40px;
+}
+
+#ul-header > div > li.linkedin{
+    background: url(/assets/images/linkedin.png);
+		margin-top:10px;
+		background-repeat: no-repeat;
+		width:40px;
+}
+
+#ul-header > div > li.github{
+    background: url(/assets/images/github.png);
+		margin-top:10px;
+		background-repeat: no-repeat;
+		width:60px;
+}
+/* end header css*/
+
+#main{
+	display:inline-block;
+	width:100%;
+	height:20%;
+	margin-bottom:10%;
+}
+
+#main.article{
+	margin-top:10%;
+}
+
+#UX{
+	display: inline-block;
+	padding:2%;
+	width:40%;
+	height:300px;
+	font-size:1.5em;
+}
+
+#container{
+	margin:5%;
+	margin-top:8%;
+	font-family: 'Arvo', serif;
+}
+
+img{
+	width:100%:
+	margin:0px auto;
+	float:right;
+	display: inline-block;
+}
+
+h1{
+	font-size:2.2em !important;
+	color: mediumvioletred;
+	margin-top:0px;
+}
+
+h2,h3{
+	font-size: 1.2em !important;
+}
+
+h3{
+	float:right;
+}
+
+.seagreen{
+	color:rgba(124,204,197,1);
+}
+
+.tabs .tab a{
+	color:mediumturquoise !important;
+	margin-top:2%;
+}
+
+.indicator{
+	color:mediumturquoise !important;
+}
+
+#casestudy{
+	border-radius: 5px;
+	background-color: rgba(124,204,197,1);
+	color: white;
+	font-size:.7em;
+	border:none;
+	padding:5%;
+	font-size:1em;
+}
+
+#casestudy:hover{
+	border-radius: 5px;
+	background-color: rgba(124,204,197,.6);
+}
+
+#nav1{
+	background-color: rgba(124,204,197,.1);
+	clear:both;
+	height:800px;
+	padding-bottom:5%;
+	padding-top:5%;
+	-webkit-box-shadow: 0 0 20px gainsboro;
+        box-shadow: 0 0 20px gainsboro;
+}
+#nav2{
+	-webkit-box-shadow: 0 0 20px gainsboro;
+		box-shadow: 0 0 20px gainsboro;
+}
+#cogwheel{
+	margin-left:42%;
+	margin-top:5%;
+}
+	.block{
+		display: block !important;
+		text-align: center;
+	}
+	.processlist{
+		display:block;
+	}
+	.list{
+		height:100px;
+		margin-left:15%;
+	}

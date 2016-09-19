@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Welcome!</title>
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
 
     <!-- stylesheets -->
     <link href="/assets/css/style.css" rel='stylesheet' type='text/css' />
@@ -15,6 +15,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
     <!-- js -->
     <script src="https://use.fontawesome.com/3f39a6e8d2.js"></script>
     <script src="/assets/js/jquery-3.1.0.min.js"></script>
@@ -82,7 +83,7 @@
                 <div class="right-header">
                     <li><a href="#nav2">ABOUT</a></li>
                     <li><a href="#nav3">PORTFOLIO</a></li>
-                    <li class="gmail tilt"><a href="//mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me" target="_top"></a></li>
+                    <li class="gmail tilt"><a href="//mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top"></a></li>
                     <li class="linkedin tilt "><a href="//www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top"><span> </span></a></li>
                     <li class="github tilt"><a href="//github.com/LWandres" title="GitHub" target="_top"><span></span></a></li>
                 </div>
@@ -92,7 +93,7 @@
 
     <!-- responsive menu button -->
     <div id="mobile-nav">
-        <button id="menu-btn" height="200px">
+        <button id="menu-btn" >
             <div class="menu-btn fixed">
                 <div></div>
                 <span></span>
@@ -106,7 +107,7 @@
                 <li><a href="#nav1">LAURA WANDRES</a></li>
                 <li><a href="#nav2">ABOUT</a></li>
                 <li><a href="#nav3">PORTFOLIO</a></li>
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me" target="_top">GMAIL</a></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top">GMAIL</a></li>
                 <li class="linkedin"><a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top">LINKEDIN</a></li>
                 <li class="github"><a href="https://github.com/LWandres" title="GitHub" target="_top">GITHUB</a></li>
             </ul>
@@ -116,15 +117,17 @@
     <!---Top navigation bar ends -->
 
     <section id="main">
+        <h2 class="invisible">Main</h2><!--/*WCAG 2.0-->
         <!-- main container begins-->
         <!-- About me -->
         <article class="article" id="nav1"><br><br>
+            <h2 class="invisible">Introduction</h2><!--/*WCAG 2.0-->
             <div id="content" class="col-md-12">
                 <div id="right-top">
                     <p><span id="greeting">Hi there!</span>
                         <br> I'm a full stack web developer and project manager (PMP)
                         <br> in the Greater San Francisco Area.
-                        <div class='visible content'>
+                        <div class='visible content'><!--/*WCAG 2.0 hover will pause animation-->
                             <p>I specialize in:</p>
                             <ul>
                                 <li>JavaScript</li>
@@ -143,9 +146,9 @@
 
         </article>
         <div id="firstarrows" class="col-md-12">
-            <div id="toparrow" class="arrow"><img src="/assets/images/toparrow.png" width="100px"></div>
-            <div id="middlearrow" class="arrow"><img src="/assets/images/middlearrow.png" width="100px"></div>
-            <div id="bottomarrow" class="arrow"><img src="/assets/images/bottomarrow.png" width="100px"></div>
+            <div id="toparrow" class="arrow"><img src="/assets/images/toparrow.png" alt="toparrow.png"></div>
+            <div id="middlearrow" class="arrow"><img src="/assets/images/middlearrow.png" alt="midarrow.png"></div>
+            <div id="bottomarrow" class="arrow"><img src="/assets/images/bottomarrow.png" alt="bottomarrow.png"></div>
         </div><br><br><br>
 
         <!-- About PhotoSlides -->
@@ -165,35 +168,30 @@
                 <li><img src="/assets/images/activities.png" alt="06" /><h5>In my spare time I enjoy...</h5></li>
                 <li>
                     <div id="contactpic">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks for reaching out! Looking forward to meeting you." title="Gmail Me" target="_top">
-                            <button id="gmail">GMAIL ME</button>
-                        </a>
-                        <a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top">
-                            <button id="linkedin">CONNECT ON LINKEDIN</button>
-                        </a>
+                        <a id="gmail" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top">GMAIL ME</a>
+                        <a id="linkedin" href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top">CONNECT ON LINKEDIN</a>
                     </div>
                     <h5 class="contacth5">and meeting new people like you! :)</h5></li>
             </ul>
         </article>
         <!-- End About PhotoSlides-->
         <div id="secondarrows" class="col-md-12">
-            <div id="toparrow2" class="arrow2"><img src="/assets/images/toparrow.png" width="100px"></div>
-            <div id="middlearrow2" class="arrow2"><img src="/assets/images/middlearrow.png" width="100px"></div>
-            <div id="bottomarrow2" class="arrow2"><img src="/assets/images/bottomarrow.png" width="100px"></div>
+            <div id="toparrow2" class="arrow2"><img src="/assets/images/toparrow.png" alt="toparrow.png"></div>
+            <div id="middlearrow2" class="arrow2"><img src="/assets/images/middlearrow.png" alt="midarrow.png"></div>
+            <div id="bottomarrow2" class="arrow2"><img src="/assets/images/bottomarrow.png" alt="bottomarrow.png"></div>
         </div>
 
         <article class="article col-md-12" id="nav3"><br><br>
             <h1>recent projects</h1>
-
+            <h2 class="invisible">Portfolio</h2><!--/*WCAG 2.0-->
             <div id="portfolio-container">
                 <div id="grid1" class="grid"><!-- first row of boxes begins -->
-
                     <figure class="effect-milo PM">
                         <img src="/assets/images/pm.jpeg" alt="img11" />
                         <figcaption>
                             <h2>Project <span>Managed</span></h2>
                             <p>A PHP web-based agenda & meeting manager<br><br>
-                            <span class="uses"> Uses: PHP, SQL,jQuery,APIs</p></span>
+                            <span class="uses"> Uses: PHP, SQL,jQuery,APIs</span></p>
                             <a data-toggle="modal" data-target="#PMModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -203,7 +201,7 @@
                         <figcaption>
                             <h2>Letters <span>4Animals</span></h2>
                             <p>Promotes civic engagement through automatic letter creation<br><br>
-                             <span class="uses"> Uses:Angular,<br>Node,Postgres</p></span>
+                             <span class="uses"> Uses:Angular,<br>Node,Postgres</span></p>
                             <a data-toggle="modal" data-target="#L4AModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -213,7 +211,7 @@
                         <figcaption>
                             <h2>Fort <span>McMurray</span></h2>
                             <p> Raised funds for Fort McMurray wildfire victims<br><br>
-                            <span class="uses"> Front-end & responsive design</p></span>
+                            <span class="uses"> Front-end & responsive design</span></p>
                             <a data-toggle="modal" data-target="#FMModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -225,7 +223,7 @@
                         <figcaption>
                             <h2>Chat<span>Room</span></h2>
                             <p> Express and Socket Web App that faciliates live chat functionality<br>
-                             <span class="uses"><br> Uses: Web Sockets, Node.js, Express.js, jQuery </p></span>
+                             <span class="uses"><br> Uses: Web Sockets, Node.js, Express.js, jQuery </span></p>
                             <a data-toggle="modal" data-target="#ChatModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -235,7 +233,7 @@
                         <figcaption>
                             <h2>Shudi<span>doo </span></h2>
                             <p>iOS App that suggests location-based activities<br><br>
-                            <span class="uses"> Uses: Swift/iOS, SQL, PHP, CoreLocation, GoogleMaps API</p></span>
+                            <span class="uses"> Uses: Swift/iOS, SQL, PHP, CoreLocation, GoogleMaps API</span></p>
                             <a data-toggle="modal" data-target="#SDModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -245,7 +243,7 @@
                         <figcaption>
                             <h2>THE<span>WALL</span></h2>
                             <p>A MEAN Stack Web Discussion Forum<br><br>
-                            <span class="uses"> Uses: MEAN Stack, HTML, CSS, jQuery, Sockets</p></span>
+                            <span class="uses"> Uses: MEAN Stack, HTML, CSS, jQuery, Sockets</span></p>
                             <a data-toggle="modal" data-target="#WallModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -257,7 +255,7 @@
                         <figcaption>
                             <h2>OOP</h2>
                             <p>Mini-Demo of Object Oriented Programming in Action<br><br>
-                             <span class="uses"> Uses: OOP, JavaScript, HTML, CSS, jQuery</p></span>
+                             <span class="uses"> Uses: OOP, JavaScript, HTML, CSS, jQuery</span></p>
                                 <a data-toggle="modal" data-target="#OOPModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -268,7 +266,7 @@
                         <figcaption>
                             <h2><span>MINI-STORE</span></h2>
                             <p>Sample E-Commerce Website to manage customers & orders<br><br>
-                                 <span class="uses">  Uses: MEAN Stack</p></span>
+                                 <span class="uses">  Uses: MEAN Stack</span></p>
                             <a data-toggle="modal" data-target="#StoreModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -278,7 +276,7 @@
                         <figcaption>
                             <h2>jQUERY<span>Demo</span></h2>
                             <p>Quick demo of simple jQuery functions<br><br>
-                             <span class="uses"> Uses: jQUERY, HTML, CSS</p></span>
+                             <span class="uses"> Uses: jQUERY, HTML, CSS</span></p>
                             <a data-toggle="modal" data-target="#jQueryModal" href=""></a>
                         </figcaption>
                     </figure>
@@ -304,10 +302,10 @@
                 <p>Inspired by years as an IT project manager, I conceptualized and created a web-application that helps users automate tedious project management tasks.
                     From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
                     send out automatic follow-up reminders to tagged meeting participants.</p>
-                <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS<br>
+                <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS</p><br>
                 <p>Involvement: Individual Full Stack Development</p>
-                <a href="http://52.40.19.212" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/LWandres/Project-Managed-Final" target="_top"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.40.19.212" class="to_site" target="_top">TO THE SITE</a>
+                <a href="http://github.com/LWandres/Project-Managed-Final" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
@@ -327,10 +325,10 @@
               <div class="modal-body">
                 <img src="/assets/images/FtMac.png" alt="FortMac.png" class="modalimage">
                 <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All proceeds are going to the United Way of Fort McMurray for distribution.</p>
-                <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets<br>
+                <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets</p><br>
                 <p>Involvement: Group Project - Implemented Front-End</p>
-                <a href="http://www.fortmcmurrayrelieffund.com/" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" target="_top"><button class="to_site">READ ABOUT THE FIRE</button></a>
+                <a href="http://www.fortmcmurrayrelieffund.com/" class="to_site" target="_top">TO THE SITE</a>
+                <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" class="to_site" target="_top">READ ABOUT THE FIRE</a>
               </div>
             </div>
           </div>
@@ -351,11 +349,11 @@
                 <img src="/assets/images/L4A.png" alt="Letters4Animals.png" class="modalimage">
                 <p> Letters4Animals strives to increase and promote civic engagement through automating letters to political officials.
                     Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
-                    to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.
+                    to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.</p>
                 <p>Technologies: Express.js, AngularJS, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
-                <p>Involvement: Group Project - Full Stack Developer.</p>
-                <a href="http://54.187.97.10" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/dallals/Letters4Animals" target="_top"><button class="to_site">TO GITHUB</button></a>
+                    Involvement: Group Project - Full Stack Developer.</p>
+                <a href="http://54.187.97.10" class="to_site" target="_top">TO THE SITE</a>
+                <a href="http://github.com/dallals/Letters4Animals" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
@@ -402,13 +400,14 @@
                 <h3 class="modal-title">CHAT ROOM - 2016</h3>
               </div>
               <div class="modal-body">
-                <img src="/assets/images/mainchat.png" alt="mainchat.png" class="modalimage">
+                <img src="/assets/images/ChatRoom1.png" alt="OOP.png" class="modalimage">
+                <img src="/assets/images/ChatRoom2.png" alt="OOP.png" class="modalimage">
 
                 <p>A straightforward Chat Room where users can communicate in real-time.</p>
-                   Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
+                <p>Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
                    Involvement: Individual Project -  Web Developer</p>
-                <a href="http://52.37.34.146" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="https://github.com/LWandres/Chat_Room" target="_top"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.37.34.146" class="to_site" target="_top">TO THE SITE</a>
+                <a href="https://github.com/LWandres/Chat_Room" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
@@ -428,11 +427,11 @@
               <div class="modal-body">
                 <img src="/assets/images/OOP.png" alt="OOP.png" class="modalimage">
                 <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p><br>
-                   Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
+                <p>Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
-                   NOTE: Please use Google Chrome for this demo.</br><br>
-                <a href="/main/OOPDemo" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/LWandres/OOPDemo" target="_top"><button class="to_site">TO GITHUB</button></a>
+                   NOTE: Please use Google Chrome for this demo.<br><br>
+                <a href="/main/OOPDemo" class="to_site" target="_top">TO THE SITE</a>
+                <a href="http://github.com/LWandres/OOPDemo" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
@@ -453,10 +452,10 @@
               <div class="modal-body">
                 <img src="/assets/images/TheWall.png" alt="TheWall.png" class="modalimage">
                 <p>A Web-Forum for Online Discussion.</p>
-                   Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
+                <p>Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
                    Involvement: Individual Project - Full Stack Web Developer</p>
-                <a href="http://52.32.116.49" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="https://github.com/LWandres/TheWall" target="_top"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.32.116.49" class="to_site" target="_top">TO THE SITE</a>
+                <a href="https://github.com/LWandres/TheWall" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
@@ -477,17 +476,16 @@
               <img src="/assets/images/Mini-Store.png" alt="Mini-Store.png" class="modalimage">
               <div class="modal-body">
                 <p>A back-end administration portal for a mock company to manage their customers, products, and orders.</p>
-                   Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
+                <p>Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
                    Involvement: Individual Project- Full Stack Web Developer</p>
-                <a href="http://52.43.15.209/" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="https://github.com/LWandres/Mini-Store" target="_top"><button class="to_site">TO GITHUB</button></a>
+                <a href="http://52.43.15.209/" class="to_site" target="_top">TO THE SITE</a>
+                <a href="https://github.com/LWandres/Mini-Store" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
       </div>
     </div>
     <!-- End Mini-Store Modal -->
-
 
     <!-- The Mini-Store Modal -->
     <div class="modal fade" id="jQueryModal" role="dialog">
@@ -501,21 +499,19 @@
               <div class="modal-body">
                 <img src="/assets/images/star_wars.png" alt="star_wars.png" class="modalimage">
                 <p>An interactive jQuery site themed after Star Wars.</p>
-                   Technologies: HTML/CSS, jQuery<br><br>
+                <p>Technologies: HTML/CSS, jQuery<br><br>
                    Involvement: Individual Project - Web Developer</p>
-                <a href="/main/starwars" target="_top"><button class="to_site">TO THE SITE</button></a>
-                <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo" target="_top"><button class="to_site">TO GITHUB</button></a>
+                <a href="/main/starwars" class="to_site" target="_top">TO THE SITE</a>
+                <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
       </div>
     </div>
     <!-- End Mini-Store Modal -->
-
-
-</body>
-
     <script>
         new ElastiStack(document.getElementById('elasticstack'));
     </script>
+</body>
+
 </html>

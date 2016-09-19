@@ -17,4 +17,8 @@ class main extends CI_Controller {
 	public function starwars(){
 		$this->load->view('starwars');
 	}
+	
+	public function UX(){
+		$this->load->view('UX');
+	}
 }
