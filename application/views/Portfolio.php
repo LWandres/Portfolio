@@ -400,8 +400,8 @@
                 <h3 class="modal-title">CHAT ROOM - 2016</h3>
               </div>
               <div class="modal-body">
-                <img src="/assets/images/ChatRoom1.png" alt="OOP.png" class="modalimage">
-                <img src="/assets/images/ChatRoom2.png" alt="OOP.png" class="modalimage">
+                <img src="/assets/images/ChatRoom1.png" alt="ChatRoom1.png" class="modalimage">
+                <img src="/assets/images/ChatRoom2.png" alt="ChatRoom2.png" class="modalimage">
 
                 <p>A straightforward Chat Room where users can communicate in real-time.</p>
                 <p>Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
