@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="description" content="Web Developer Portfolio Website">
-    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,Web Developer,HTML5,CSS3,JavaScript,Full Stack Developer,San Francisco">
+    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,web developer,HTML5,CSS3,JavaScript, full stack developer">
     <meta name="author" content="Laura Wandres">
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
 
@@ -30,7 +30,7 @@
     <script src="/assets/js/draggabilly.pkgd.min.js"></script>
     <script src="/assets/js/elastiStack.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/portfolio.js"></script>
+    <script src="/assets/js/portfolioemail.js"></script>
     <script src="/assets/js/sweetalert.min.js"></script>
 
 </head>
