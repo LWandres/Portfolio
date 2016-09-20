@@ -27,7 +27,7 @@
     <script src="/assets/js/draggabilly.pkgd.min.js"></script>
     <script src="/assets/js/elastiStack.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/portfolio.js"></script>
+    <script src="/assets/js/portfolioemail.js"></script>
     <script src="/assets/js/sweetalert.min.js"></script>
 
 </head>
@@ -117,7 +117,7 @@
                 <li><img src="/assets/images/About.png" alt="02"/><h5>Nice to meet you!</h5></li>
                 <li><img src="/assets/images/goldengate.jpg" alt="03"/><h5>This is home. The view doesn't get old :) </h5></li>
                 <li><img src="/assets/images/mobile.png" alt="04" /><h5>I code web and mobile applications</h5></li>
-                <li><img src="/assets/images/UX.png" alt="04"/><h5>& enjoy designing UX users will love.</i></h5></li>
+                <li><img src="/assets/images/UX.png" alt="04"/><h5> & enjoy designing UX users will love.</i></h5></li>
                 <li><img src="/assets/images/realms.png" alt="06" /><h5>I've worked in non-profit & for-profit realms</h5></li>
                 <li><img src="/assets/images/technical.png" alt="06" /><h5>in technical & non-tech roles...</h5></li>
                 <li><img src="/assets/images/impact.png" alt="05" /><h5>and am looking to "do good" with my code.</h5></li>
@@ -410,7 +410,7 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/OOP.png" alt="OOP.png" class="modalimage">
-                <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p>
+                <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p><br>
                 <p>Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
                    NOTE: Please use Google Chrome for this demo.<br><br>
