@@ -1,46 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Laura Wandres Portfolio</title>
+    <title>Welcome!</title>
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
     <meta charset="UTF-8">
-    <meta name="description" content="Web Developer Portfolio Website">
-    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,web developer,HTML5,CSS3,JavaScript, full stack developer">
-    <meta name="author" content="Laura Wandres">
 
     <!-- stylesheets -->
     <link href="/assets/css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/assets/css/component.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css" />
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/assets/css/sweetalert.css">
 
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
-
     <!-- js -->
+    <script src="https://use.fontawesome.com/3f39a6e8d2.js"></script>
     <script src="/assets/js/jquery-3.1.0.min.js"></script>
     <script src="/assets/js/modernizr.custom.js"></script>
     <script src="/assets/js/draggabilly.pkgd.min.js"></script>
     <script src="/assets/js/elastiStack.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/portfolio.js"></script>
-    <script src="/assets/js/sweetalert.min.js"></script>
 
+    <script>
+        $(document).ready(function() {
+            // responsive menu jquery
+            $(".responsive-menu").hide();
+            $("#toparrow").hide();
+            $("#middlearrow").hide();
+            $("#bottomarrow").hide();
+            $("#toparrow2").hide();
+            $("#middlearrow2").hide();
+            $("#bottomarrow2").hide();
+
+            $("#menu-btn").click(function() {
+                $(".responsive-menu").toggle();
+            });
+        });
+
+        //scrolling navbar
+        $(window).bind('scroll', function() {
+            if ($(window).scrollTop() > 1.5) {
+                $('.header').addClass('fixednav');
+                $("#toparrow").fadeIn(2000);
+                $("#middlearrow").fadeIn(4000);
+                $("#bottomarrow").fadeIn(7000);
+            }
+            if ($(window).scrollTop() > 900) {
+                $("#toparrow2").fadeIn(2000);
+                $("#middlearrow2").fadeIn(4000);
+                $("#bottomarrow2").fadeIn(7000);
+            }
+        });
+
+        $(window).bind('scroll', function() {
+            if ($(window).scrollTop() > 2) {
+                $('.content ul').hide();
+            } else {
+                $('.content ul').show();
+            }
+        });
+
+    //Google Analytics
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-82133906-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
     <!---Top navigation bar begins -->
-    <header class="header fixednav">
+    <header class="header nav">
         <nav>
             <ul id="ul-header">
                 <li><a href="#nav1">LAURA WANDRES</a></li>
                 <div class="right-header">
                     <li><a href="#nav2">ABOUT</a></li>
                     <li><a href="#nav3">PORTFOLIO</a></li>
-                    <li><a href="#nav4">CONTACT</a></li>
                     <li class="gmail tilt"><a href="//mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top"></a></li>
                     <li class="linkedin tilt "><a href="//www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top"><span> </span></a></li>
                     <li class="github tilt"><a href="//github.com/LWandres" title="GitHub" target="_top"><span></span></a></li>
@@ -65,7 +107,6 @@
                 <li><a href="#nav1">LAURA WANDRES</a></li>
                 <li><a href="#nav2">ABOUT</a></li>
                 <li><a href="#nav3">PORTFOLIO</a></li>
-                <li><a href="#nav4">CONTACT</a></li>
                 <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top">GMAIL</a></li>
                 <li class="linkedin"><a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top">LINKEDIN</a></li>
                 <li class="github"><a href="https://github.com/LWandres" title="GitHub" target="_top">GITHUB</a></li>
@@ -73,14 +114,14 @@
         </div>
     </div>
     <!-- end of responsive menu -->
-
     <!---Top navigation bar ends -->
+
     <section id="main">
-        <h2 class="invisible">Main</h2><!--/* For WCAG 2.0 navigation-->
-        <!-- Main container begins-->
+        <h2 class="invisible">Main</h2><!--/*WCAG 2.0-->
+        <!-- main container begins-->
         <!-- About me -->
         <article class="article" id="nav1"><br><br>
-            <h2 class="invisible">Introduction</h2><!--/*for WCAG 2.0 navigation-->
+            <h2 class="invisible">Introduction</h2><!--/*WCAG 2.0-->
             <div id="content" class="col-md-12">
                 <div id="right-top">
                     <p><span id="greeting">Hi there!</span>
@@ -117,7 +158,7 @@
                 <li><img src="/assets/images/About.png" alt="02"/><h5>Nice to meet you!</h5></li>
                 <li><img src="/assets/images/goldengate.jpg" alt="03"/><h5>This is home. The view doesn't get old :) </h5></li>
                 <li><img src="/assets/images/mobile.png" alt="04" /><h5>I code web and mobile applications</h5></li>
-                <li><img src="/assets/images/UX.png" alt="04"/><h5>& enjoy designing UX users will love.</i></h5></li>
+                <li><img src="/assets/images/UX.png" alt="04"/><h5> & enjoy designing experiences users will <i class="fa fa-heart-o pink" aria-hidden="true">.</i></h5></li>
                 <li><img src="/assets/images/realms.png" alt="06" /><h5>I've worked in non-profit & for-profit realms</h5></li>
                 <li><img src="/assets/images/technical.png" alt="06" /><h5>in technical & non-tech roles...</h5></li>
                 <li><img src="/assets/images/impact.png" alt="05" /><h5>and am looking to "do good" with my code.</h5></li>
@@ -144,7 +185,7 @@
             <h1>recent projects</h1>
             <h2 class="invisible">Portfolio</h2><!--/*WCAG 2.0-->
             <div id="portfolio-container">
-                <div id="grid1" class="grid col-md-12"><!-- first row of boxes begins -->
+                <div id="grid1" class="grid"><!-- first row of boxes begins -->
                     <figure class="effect-milo PM">
                         <img src="/assets/images/pm.jpeg" alt="img11" />
                         <figcaption>
@@ -245,34 +286,8 @@
         </section><!-- end main section -->
 
 
-        <article class="article col-md-12" id="nav4"><br><br><br>
-            <h1> Contact Me</h1>
-            <ul>
-                <li class="gmail tilt"><a href="//mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top"></a></li>
-                <li class="linkedin tilt "><a href="//www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top"><span></span></a></li>
-                <li class="github tilt"><a href="//github.com/LWandres" title="GitHub" target="_top"><span></span></a></li>
-            </ul>
-            <form id="contact" method="post" action="/main/sendemail">
-              <div class="form-group col-md-6">
-                <label for="name">Your Name:</label>
-                <input type="text" class="form-control" name="name" placeholder="Nice to meet you!" required>
-            </div>
-              <div class="form-group col-md-6">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" name="email" placeholder="Your email address" required>
-            </div><br>
-              <div class="form-group col-md-12">
-                <label for="message">Your Message:</label>
-                <textarea class="form-control " name="message" placeholder="Let's get in touch! How can I help you?" required></textarea>
-              </div><br>
-            <div class="form-group col-md-12">
-              <input id="reset" class="formbutton col-md-5" type="button" value="RESET">RESET</input>
-              <input id="send" class="formbutton col-md-5" type="submit" value="SEND">SEND</input>
-            </div>
-            </form>
-        </article>
-
     <!--- BEGIN MODALS -->
+
     <!-- Project Managed Modal -->
     <div class="modal fade" id="PMModal" role="dialog">
         <div class="vertical-alignment-helper">
@@ -287,7 +302,7 @@
                 <p>Inspired by years as an IT project manager, I conceptualized and created a web-application that helps users automate tedious project management tasks.
                     From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
                     send out automatic follow-up reminders to tagged meeting participants.</p>
-                <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS</p>
+                <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS</p><br>
                 <p>Involvement: Individual Full Stack Development</p>
                 <a href="http://52.40.19.212" class="to_site" target="_top">TO THE SITE</a>
                 <a href="http://github.com/LWandres/Project-Managed-Final" class="to_site" target="_top">TO GITHUB</a>
@@ -310,7 +325,7 @@
               <div class="modal-body">
                 <img src="/assets/images/FtMac.png" alt="FortMac.png" class="modalimage">
                 <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All proceeds are going to the United Way of Fort McMurray for distribution.</p>
-                <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets</p>
+                <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets</p><br>
                 <p>Involvement: Group Project - Implemented Front-End</p>
                 <a href="http://www.fortmcmurrayrelieffund.com/" class="to_site" target="_top">TO THE SITE</a>
                 <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" class="to_site" target="_top">READ ABOUT THE FIRE</a>
@@ -335,9 +350,10 @@
                 <p> Letters4Animals strives to increase and promote civic engagement through automating letters to political officials.
                     Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
                     to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.</p>
-                <p>Technologies: Express.js, AngularJS, Node,js, Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br><br>
+                <p>Technologies: Express.js, AngularJS, Node,js,Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br>
                     Involvement: Group Project - Full Stack Developer.</p>
                 <a href="http://54.187.97.10" class="to_site" target="_top">TO THE SITE</a>
+                <a href="http://github.com/dallals/Letters4Animals" class="to_site" target="_top">TO GITHUB</a>
               </div>
             </div>
           </div>
@@ -410,7 +426,7 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/OOP.png" alt="OOP.png" class="modalimage">
-                <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p>
+                <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p><br>
                 <p>Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
                    NOTE: Please use Google Chrome for this demo.<br><br>
@@ -493,7 +509,6 @@
       </div>
     </div>
     <!-- End Mini-Store Modal -->
-
     <script>
         new ElastiStack(document.getElementById('elasticstack'));
     </script>
