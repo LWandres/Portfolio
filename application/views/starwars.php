@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>jQuery Portfolio</title>
+    <meta name="viewport" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Developer Portfolio Website">
+    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,Web Developer,HTML5,CSS3,JavaScript,Full Stack Developer,San Francisco">
+    <meta name="author" content="Laura Wandres">
+    <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
 
     <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" href="/assets/css/starwars.css" />

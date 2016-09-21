@@ -6,7 +6,11 @@
     <title>UX/UI Case Studies</title>
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+    <meta name="viewport" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Web Developer Portfolio Website">
+    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,Web Developer,HTML5,CSS3,JavaScript,Full Stack Developer,San Francisco">
+    <meta name="author" content="Laura Wandres">
     <!-- stylesheets -->
     <link href="/assets/css/UXstyle.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/assets/css/component.css" />
@@ -107,6 +111,7 @@
     <div id="container">
     <section id="main">
         <div class="col-md-6" id="UX">
+            <h2>This page is in progress.</h2>
             <h1>let's chat UX/UI. <h1>
             <h2>good <span class="seagreen">design</span> = happy people</h2>
             <a href="#nav1"><button id="casestudy" class="gold">see process</button></a>

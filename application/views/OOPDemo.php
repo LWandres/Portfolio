@@ -42,18 +42,14 @@
 				$("#instructions").hide();
 			});
 		});
-
 		//Tracks click-hold time. Longer click times will make the resulting circles larger.
 		var time = 0;
 		(function() {
-
 			var mousedown_time;
-
 			function getTime() {
 				var date = new Date();
 				return date.getTime();
 			}
-
 			document.onmousedown = function(e) {
 				mousedown_time = getTime();
 			}
@@ -62,9 +58,7 @@
 				console.log('You held your mouse down for', time_pressed, 'miliseconds.');
 				time = time_pressed;
 			}
-
 		})();
-
 		//sets counter to iterate through notes array below.
 		var notescount = 0;
 		//gets random color for cirlces.
@@ -76,7 +70,6 @@
 			}
 			return color;
 		}
-
 		function Circle(cx, cy, html_id, r) {
 			var html_id = html_id;
 			this.info = {
@@ -84,19 +77,16 @@
 				cy: cy,
 				radius: 10 * (time / 100)
 			};
-
 			//generates a random number to initialize velocity with
 			var randomNumberBetween = function(min, max) {
 				return Math.random() * (max - min) + min;
 			}
-
 			this.initialize = function() {
 				//give a random velocity for the circle
 				this.info.velocity = {
 					x: randomNumberBetween(-3, 3),
 					y: randomNumberBetween(-3, 3)
 				}
-
 				//create a circle
 				var circle = makeSVG('circle', {
 					cx: this.info.cx,
@@ -105,20 +95,16 @@
 					id: html_id,
 					style: "fill: white"
 				});
-
 				//add a circle to the svg screen
 				document.getElementById('svg').appendChild(circle);
 			}
-
 			//checks to see the status of the circles/ detects collisions
 			this.update = function(time) {
 				var el = document.getElementById(html_id);
-
 				//Array of Melody Notes
 				var notes = ["F", "E", "D", "F", "E", "F", "E", "F", "G", "A", "G", "A", "E", "D", "C", "F", "E", "F", "E", "D", "C", "G", "B",
 						"C5"
 					] // Don't Stop Believing Chorus
-
 				//Function to play Don't Stop Believing Melody
 				function play() {
 					//Checks if series has reached end of array, it not increments count by 1
@@ -134,7 +120,6 @@
 						notescount = 0;
 						var element = notes[notescount];
 						var audio = document.getElementById(element);
-
 						//Prevents collisions from skipping notes in the array due to already playing audio.
 						if (audio.paused) {
 							audio.play();
@@ -142,7 +127,6 @@
 						}
 					}
 				}
-
 				//Checks for Left/Right Screen Collision
 				if (this.info.cx + this.info.radius > document.body.clientWidth || this.info.cx - this.info.radius < 0) {
 					//Reverses velocity on collision
@@ -155,7 +139,6 @@
 					var newcolor = getRandomColor();
 					el.setAttribute("style", "fill:" + newcolor);
 				}
-
 				//Checks for Top and Bottom Screen Collision
 				if (this.info.cy + this.info.radius > document.body.clientHeight || this.info.cy - this.info.radius < 0) {
 					//Reverses velocity on collision
@@ -168,15 +151,12 @@
 						play();
 					}
 				}
-
 				this.info.cx = this.info.cx + this.info.velocity.x * time;
 				this.info.cy = this.info.cy + this.info.velocity.y * time;
-
 				el.setAttribute("cx", this.info.cx);
 				el.setAttribute("cy", this.info.cy);
 				el.setAttribute("r", this.info.radius);
 			}
-
 			//creates the SVG element and returns it
 			var makeSVG = function(tag, attrs) {
 				var el = document.createElementNS('http://www.w3.org/2000/svg', tag);
@@ -185,39 +165,31 @@
 				}
 				return el;
 			}
-
 			this.initialize();
 		}
-
 		function PlayGround() {
 			var counter = 0; //counts the number of circles created
 			var circles = []; //array that will hold all the circles created in the app
-
 			//A loop that updates the circle's position on the screen
 			this.loop = function() {
 				for (circle in circles) {
 					circles[circle].update(1);
 				}
 			}
-
 			//Creates a new instance of a circle and adds it to the full circle array
 			this.createNewCircle = function(x, y) {
 				var new_circle = new Circle(x, y, counter++);
 				circles.push(new_circle);
 			}
-
 			this.createNewCircle(document.body.clientWidth, document.body.clientHeight);
 		}
-
 		// instantiates the playground environment
 		var playground = new PlayGround();
 		setInterval(playground.loop, 15);
-
 		// event listener for circle creation
 		document.onclick = function(e) {
 			playground.createNewCircle(e.x, e.y);
 		}
-
 		window.onbeforeunload = function() {
 			circles = [];
 		};

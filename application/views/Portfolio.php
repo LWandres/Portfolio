@@ -10,7 +10,6 @@
     <meta name="author" content="Laura Wandres">
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
 
-
     <!-- stylesheets -->
     <link href="/assets/css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/assets/css/component.css" />
@@ -269,8 +268,8 @@
                 <textarea id="message" class="form-control" name="message" placeholder="Let's get in touch! How can I help you?" required></textarea>
               </div><br>
             <div class="form-group col-md-12">
-              <input id="reset" class="formbutton col-md-5" type="button" value="RESET">RESET>
-              <input id="send" class="formbutton col-md-5" type="submit" value="SEND">SEND>
+              <input id="reset" class="formbutton col-md-5" type="button" value="RESET">
+              <input id="send" class="formbutton col-md-5" type="submit" value="SEND">
             </div>
             </form>
         </article>

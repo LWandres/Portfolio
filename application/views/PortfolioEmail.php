@@ -10,7 +10,6 @@
     <meta name="author" content="Laura Wandres">
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
 
-
     <!-- stylesheets -->
     <link href="/assets/css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/assets/css/component.css" />
