@@ -265,7 +265,7 @@
             </div><br>
               <div class="form-group col-md-12">
                 <label for="message">Your Message:</label>
-                <textarea id="message" class="form-control" name="message" placeholder="Let's get in touch! How can I help you?" required></textarea>
+                <textarea id="message" class="form-control" name="message" placeholder="Want to chat? Have a project you'd like me to work on? Let's get in touch!" required></textarea>
               </div><br>
             <div class="form-group col-md-12">
               <input id="reset" class="formbutton col-md-5" type="button" value="RESET">
@@ -387,7 +387,7 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/ChatRoom1.png" alt="ChatRoom1.png" class="modalimage">
-                <img src="/assets/images/ChatRoom2.png" alt="ChatRoom2.png" class="modalimage">
+                <!-- <img src="/assets/images/ChatRoom2.png" alt="ChatRoom2.png" class="modalimage"> -->
 
                 <p>A straightforward Chat Room where users can communicate in real-time.</p>
                 <p>Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>

@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-    function confirmemail(){
-    };
-
     // responsive menu and arrow animation
     $(".responsive-menu").hide();
     $("#toparrow").hide();
