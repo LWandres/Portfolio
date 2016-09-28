@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="description" content="Web Developer Portfolio Website">
-    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,web developer,HTML5,CSS3,JavaScript, full stack developer">
+    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,Web Developer,HTML5,CSS3,JavaScript,Full Stack Developer,San Francisco">
     <meta name="author" content="Laura Wandres">
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
 
@@ -64,7 +64,6 @@
 
         <div id="resp-menu" class="responsive-menu">
             <ul>
-                <li><a href="#nav1">LAURA WANDRES</a></li>
                 <li><a href="#nav2">ABOUT</a></li>
                 <li><a href="#nav3">PORTFOLIO</a></li>
                 <li><a href="#nav4">CONTACT</a></li>
@@ -85,8 +84,8 @@
             <h2 class="invisible">Introduction</h2><!--/*for WCAG 2.0 navigation-->
             <div id="content" class="col-md-12">
                 <div id="right-top">
-                    <p><span id="greeting">Hi there!</span>
-                        <br> I'm a full stack web developer and project manager (PMP)
+                    <p><span id="greeting">Hi there!</span><br>
+                        <br> I'm a full stack web developer and project manager
                         <br> in the Greater San Francisco Area.
                         <div class='visible content'><!--/*WCAG 2.0 hover will pause animation-->
                             <p>I specialize in:</p>
@@ -102,19 +101,13 @@
                             </ul>
                         </div>
                 </div>
-                <img src="/assets/images/profileimage.png" class="profileimage" alt="profileimage.png">
             </div>
-
+            <br class="clear">
+            <a href="#nav2" id="learn_more" class="learn_more">LEARN MORE</a>
         </article>
-        <div id="firstarrows" class="col-md-12">
-            <div id="toparrow" class="arrow"><img src="/assets/images/toparrow.png" alt="toparrow.png"></div>
-            <div id="middlearrow" class="arrow"><img src="/assets/images/middlearrow.png" alt="midarrow.png"></div>
-            <div id="bottomarrow" class="arrow"><img src="/assets/images/bottomarrow.png" alt="bottomarrow.png"></div>
-        </div><br><br><br>
 
         <!-- About PhotoSlides -->
         <article class="article col-md-12" id="nav2"><br><br><br>
-
             <ul id="elasticstack" class="elasticstack">
                 <li><img src="/assets/images/About.png" alt="02"/><h5>Nice to meet you!</h5></li>
                 <li><img src="/assets/images/goldengate.jpg" alt="03"/><h5>This is home. The view doesn't get old :) </h5></li>
@@ -136,11 +129,6 @@
             </ul>
         </article>
         <!-- End About PhotoSlides-->
-        <div id="secondarrows" class="col-md-12">
-            <div id="toparrow2" class="arrow2"><img src="/assets/images/toparrow.png" alt="toparrow.png"></div>
-            <div id="middlearrow2" class="arrow2"><img src="/assets/images/middlearrow.png" alt="midarrow.png"></div>
-            <div id="bottomarrow2" class="arrow2"><img src="/assets/images/bottomarrow.png" alt="bottomarrow.png"></div>
-        </div>
 
         <article class="article col-md-12" id="nav3"><br><br>
             <h1>recent projects</h1>
@@ -211,17 +199,6 @@
 
                     <br class="clear">
 
-                    <figure class="effect-milo OOP">
-                        <img src="/assets/images/circles.png" alt="img03" />
-                        <figcaption>
-                            <h2>OOP</h2>
-                            <p>Mini-Demo of Object Oriented Programming in Action<br><br>
-                             <span class="uses"> Uses: OOP, JavaScript, HTML, CSS, jQuery</span></p>
-                                <a data-toggle="modal" data-target="#OOPModal" href=""></a>
-                        </figcaption>
-                    </figure>
-
-
                     <figure class="effect-milo CUSTOMERS">
                         <img src="/assets/images/customers.png" alt="img03" />
                         <figcaption>
@@ -229,6 +206,16 @@
                             <p>Sample E-Commerce Website to manage customers & orders<br><br>
                                  <span class="uses">  Uses: MEAN Stack</span></p>
                             <a data-toggle="modal" data-target="#StoreModal" href=""></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="effect-milo OOP">
+                        <img src="/assets/images/circles.png" alt="img03" />
+                        <figcaption>
+                            <h2>OOP</h2>
+                            <p>Mini-Demo of Object Oriented Programming in Action<br><br>
+                             <span class="uses"> Uses: OOP, JavaScript, HTML, CSS, jQuery</span></p>
+                                <a data-toggle="modal" data-target="#OOPModal" href=""></a>
                         </figcaption>
                     </figure>
 
@@ -265,11 +252,11 @@
             </div><br>
               <div class="form-group col-md-12">
                 <label for="message">Your Message:</label>
-                <textarea id="message" class="form-control" name="message" placeholder="Let's get in touch! How can I help you?" required></textarea>
+                <textarea id="message" class="form-control" name="message" placeholder="Want to chat? Have a project you'd like me to work on? Let's get in touch!" required></textarea>
               </div><br>
             <div class="form-group col-md-12">
-              <input id="reset" class="formbutton col-md-5" type="button" value="RESET">RESET>
-              <input id="send" class="formbutton col-md-5" type="submit" value="SEND">SEND>
+              <input id="reset" class="formbutton col-md-5" type="button" value="RESET">
+              <input id="send" class="formbutton col-md-5" type="submit" value="SEND">
             </div>
             </form>
         </article>
@@ -286,11 +273,11 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/PMManaged.png" alt="ProjectManaged.png" class="modalimage">
-                <p>Inspired by years as an IT project manager, I conceptualized and created a web-application that helps users automate tedious project management tasks.
+                <p>Inspired by years as an IT project manager, this web-application helps users automate tedious project management tasks.
                     From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
                     send out automatic follow-up reminders to tagged meeting participants.</p>
                 <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS</p>
-                <p>Involvement: Individual Full Stack Development</p>
+                <p>Involvement: Individual Full Stack Development</p><br>
                 <a href="http://52.40.19.212" class="to_site" target="_top">TO THE SITE</a>
                 <a href="http://github.com/LWandres/Project-Managed-Final" class="to_site" target="_top">TO GITHUB</a>
               </div>
@@ -307,13 +294,13 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h3 class="modal-title">FORT MCMURRAY RELIEF FUND- 2016</h3>
+                <h3 class="modal-title">FORT MCMURRAY RELIEF FUND - 2016</h3>
               </div>
               <div class="modal-body">
                 <img src="/assets/images/FtMac.png" alt="FortMac.png" class="modalimage">
                 <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All proceeds are going to the United Way of Fort McMurray for distribution.</p>
                 <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets</p>
-                <p>Involvement: Group Project - Implemented Front-End</p>
+                <p>Involvement: Group Project - Implemented Front-End</p><br>
                 <a href="http://www.fortmcmurrayrelieffund.com/" class="to_site" target="_top">TO THE SITE</a>
                 <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" class="to_site" target="_top">READ ABOUT THE FIRE</a>
               </div>
@@ -338,7 +325,7 @@
                     Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
                     to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.</p>
                 <p>Technologies: Express.js, AngularJS, Node,js, Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br><br>
-                    Involvement: Group Project - Full Stack Developer.</p>
+                    Involvement: Group Project - Full Stack Developer.</p><br>
                 <a href="http://54.187.97.10" class="to_site" target="_top">TO THE SITE</a>
               </div>
             </div>
@@ -366,7 +353,7 @@
                 <p>Users are able to store "To-Do" tasks and find nearby locations where they can complete them using the Google Places API.
                    The App also suggests nearby activities for users to experience on days when they are looking to try something new.<br><br>
                    Technologies: Swift, iOS, CoreLocation, SQL Google Places API<br><br>
-                   Involvement: Group Project - Full Stack Mobile Developer</p>
+                   Involvement: Group Project - Full Stack Mobile Developer</p><br>
                 <button class="to_site">GITHUB REPO COMING SOON <br>(Currently refactoring)</button>
               </div>
             </div>
@@ -387,11 +374,11 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/ChatRoom1.png" alt="ChatRoom1.png" class="modalimage">
-                <img src="/assets/images/ChatRoom2.png" alt="ChatRoom2.png" class="modalimage">
+                <!-- <img src="/assets/images/ChatRoom2.png" alt="ChatRoom2.png" class="modalimage"> -->
 
                 <p>A straightforward Chat Room where users can communicate in real-time.</p>
                 <p>Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
-                   Involvement: Individual Project -  Web Developer</p>
+                   Involvement: Individual Project -  Web Developer</p><br>
                 <a href="http://52.37.34.146" class="to_site" target="_top">TO THE SITE</a>
                 <a href="https://github.com/LWandres/Chat_Room" class="to_site" target="_top">TO GITHUB</a>
               </div>
@@ -415,7 +402,7 @@
                 <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p>
                 <p>Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
                    Involvement: Individual Project- Web Developer</p>
-                   NOTE: Please use Google Chrome for this demo.<br><br>
+                   NOTE: Please use Google Chrome for this demo.<br><br><br>
                 <a href="/main/OOPDemo" class="to_site" target="_top">TO THE SITE</a>
                 <a href="http://github.com/LWandres/OOPDemo" class="to_site" target="_top">TO GITHUB</a>
               </div>
@@ -439,7 +426,7 @@
                 <img src="/assets/images/TheWall.png" alt="TheWall.png" class="modalimage">
                 <p>A Web-Forum for Online Discussion.</p>
                 <p>Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
-                   Involvement: Individual Project - Full Stack Web Developer</p>
+                   Involvement: Individual Project - Full Stack Web Developer</p><br>
                 <a href="http://52.32.116.49" class="to_site" target="_top">TO THE SITE</a>
                 <a href="https://github.com/LWandres/TheWall" class="to_site" target="_top">TO GITHUB</a>
               </div>
@@ -463,7 +450,7 @@
               <div class="modal-body">
                 <p>A back-end administration portal for a mock company to manage their customers, products, and orders.</p>
                 <p>Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
-                   Involvement: Individual Project- Full Stack Web Developer</p>
+                   Involvement: Individual Project- Full Stack Web Developer</p><br>
                 <a href="http://52.43.15.209/" class="to_site" target="_top">TO THE SITE</a>
                 <a href="https://github.com/LWandres/Mini-Store" class="to_site" target="_top">TO GITHUB</a>
               </div>
@@ -486,7 +473,7 @@
                 <img src="/assets/images/star_wars.png" alt="star_wars.png" class="modalimage">
                 <p>An interactive jQuery site themed after Star Wars.</p>
                 <p>Technologies: HTML/CSS, jQuery<br><br>
-                   Involvement: Individual Project - Web Developer</p>
+                   Involvement: Individual Project - Web Developer</p><br>
                 <a href="/main/starwars" class="to_site" target="_top">TO THE SITE</a>
                 <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo" class="to_site" target="_top">TO GITHUB</a>
               </div>

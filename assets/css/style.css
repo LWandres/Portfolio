@@ -680,7 +680,7 @@ textarea{
         display: none;
     }
 	#nav1{
-		height:70vh;
+		height:90vh;
 	}
 }
 @media (max-width: 600px) {
@@ -715,6 +715,11 @@ textarea{
     }
     #right-top>p {
         font-size: 1.2em;
+	}
+}
+@media (max-width: 500px) {
+	#nav1{
+		height:550px !important;
 	}
 }
 
