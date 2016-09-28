@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Laura Wandres Portfolio</title>
-    <meta name="viewport" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="description" content="Web Developer Portfolio Website">

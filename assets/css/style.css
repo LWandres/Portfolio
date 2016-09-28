@@ -543,6 +543,11 @@ input.form-control{
 	float:right;
 	margin-right:3%;
 }
+#greeting {
+    font-size: 2em;
+    margin-bottom: 5%;
+    text-align: left !important;
+}
 textarea{
 	height:300px;
 	width:95%;
@@ -682,8 +687,11 @@ textarea{
 	#nav1{
 		height:90vh;
 	}
+	#content{
+		margin-top: 5em;
+	}
 }
-@media (max-width: 600px) {
+@media screen and (max-device-width: 600px) {
     #greeting {
         font-size: 1.5em !important;
     }
@@ -691,42 +699,49 @@ textarea{
         font-size: 1em;
     }
     #elasticstack>li {
-        width: 300px !important;
-        height: 280px !important;
+		margin-top:5%;
+        width: 90%;
+        height: 280px;
     }
-    .elasticstack li h5 {
-        font-size: 1em !important;
-    }
-    .grid figure {
-        float: none;
-        width: 75%;
-    }
+	#elasticstack>li:nth-child(12)>h5{
+		margin-top:97%;
+	}
+	#contactpic{
+		width: 100% !important;
+        height: 300px !important;
+	}
     #portfolio-container {
         height: 200%;
     }
     #grid1 {
         height: 100%:
     }
-    .responsive-menu {
-        top: 50px;
-    }
-    #content>img {
+	#nav2{
+		width:109% !important;
+		margin:40% 0;
+	}
+	#content>img {
         width: 30%;
     }
     #right-top>p {
         font-size: 1.2em;
 	}
+    .responsive-menu {
+        top: 50px;
+    }
+	.elasticstack li h5 {
+        font-size: 1em !important;
+    }
+    .grid figure {
+        float: none;
+        width: 75%;
+    }
 }
-@media (max-width: 500px) {
+@media screen and (max-device-width: 501px) {
 	#nav1{
-		height:550px !important;
+		height:600px !important;
+		width:109%;
 	}
-}
-
-#greeting {
-    font-size: 2em;
-    margin-bottom: 5%;
-    text-align: left !important;
 }
 
 /*MODAL CSS*/
