@@ -51,7 +51,6 @@ body {
     font-family: 'Varela Round', sans-serif;
     background: black;
 	color:white;
-	height:100%;
 }
 h1 {
     margin: 0 0 2% 3%;
@@ -157,8 +156,6 @@ a {
 #main {
     display: inline-block;
     width: 100%;
-    height: 20%;
-    background: black;
     margin-bottom: 10%;
 }
 #main.article {
@@ -196,19 +193,26 @@ a {
     margin-top: 85%;
     z-index: 1;
 }
-
 #nav1{
+	height:100%;
 	margin-top:2%;
+	background-image: url("/assets/images/yosemite2.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	position:relative;
+	height:100vh;
+	font-family:'Open Sans', sans-serif !important;
+	font-weight:100;
 }
 #nav2 {
     width: 93% !important;
+	margin:15% 0;
 }
 #nav2 h2 {
     text-align: center;
     color: white;
 }
 #nav3 {
-    margin: 10% 0%;
     height: 100%;
 }
 #nav4{
@@ -261,7 +265,8 @@ a {
     display: block;
     color: white;
     text-align: center;
-    margin-right: 0px;
+    margin: 8% 0 8% 0;
+	font-size:1.1em;
 }
 #right-top>p {
     font-size: 1.2em;
@@ -274,10 +279,9 @@ a {
     margin: 0px auto;
     display: block;
     text-align: left;
-    width: 102%;
+    width: 100%;
 }
 .visible {
-    font-weight: 600;
     overflow: hidden;
     height: 40px;
     display: inline-block;
@@ -289,14 +293,20 @@ a {
     display: inline-block;
     margin: 0;
     margin-left: -40%;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 100;
+	font-size: 1.2em;
 }
 .content ul {
     margin-top: 0;
-    padding-left: 80px;
+    padding-left: 95px;
     text-align: left;
     list-style: none;
     -webkit-animation: 10s linear 0s alternate both infinite change;
     animation: 10s linear 0s alternate both infinite change;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 100;
+	font-size: 1.2em;
 }
 .content ul:hover {
     webkit-animation-play-state: paused;
@@ -329,30 +339,19 @@ h2.invisible {
     77%, 87% {transform: translateY(-87.5%);}
     88%, 100% {transform: translateY(-100%);}
 }
-
-/*Arrow Animations*/
-#secondarrows {
-    margin-top: 14%;
-    margin-left: 1%;
+/*Parallax*/
+a[id="nav1"]:target~#main article.article {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px);
 }
-.arrow {
-    color: white;
-    width: 90px;
-    height: 40px;
-    line-height: 40px;
-    margin: 0px auto;
-    padding-top: 1%;
+a[id="nav2"]:target~#main article.article {
+    -webkit-transform: translateY( -500px);
+    transform: translateY( -500px);
 }
-.arrow2 {
-    margin-top: 1%;
-    margin-left: 46%;
-    color: white;
-    width: 40px;
-    height: 40px;
-    font-size: 8em;
-    line-height: 40px;
+a[id="nav3"]:target~#main article.article {
+    -webkit-transform: translateY( -1000px);
+    transform: translateY( -1000px);
 }
-
 /*Portfolio Grid Animations */
 
 #portfolio-container {
@@ -363,6 +362,10 @@ h2.invisible {
 }
 #portfolio-grid>div>figure>figcaption>p {
     font-size: .5em;
+}
+.modal-title{
+	font-weight: 400;
+    font-size: 1.2em;
 }
 .grid {
     position: relative;
@@ -419,7 +422,7 @@ h2.invisible {
     font-weight: 300;
 }
 .grid figure h2 span {
-    font-weight: 800;
+    font-weight: 400;
 }
 .grid figure h2, .grid figure p {
     margin: 0;
@@ -490,31 +493,12 @@ figure.effect-milo:hover p {
     transform: rotate(-30deg);
 }
 
-/*Parallax*/
-a[id="nav1"]:target~#main article.article {
-    -webkit-transform: translateY( 0px);
-    transform: translateY( 0px);
-}
-a[id="nav2"]:target~#main article.article {
-    -webkit-transform: translateY( -500px);
-    transform: translateY( -500px);
-}
-a[id="nav3"]:target~#main article.article {
-    -webkit-transform: translateY( -1000px);
-    transform: translateY( -1000px);
-}
 .article {
     width: 100%;
     height: 500px;
     z-index: 0;
     padding-top: 5%;
     margin-right: 0 5% 5% 0;
-    -webkit-transform: translateZ( 0);
-    transform: translateZ( 0);
-    -webkit-transition: -webkit-transform 2s ease-in-out;
-    transition: transform 2s ease-in-out;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 
 /*Contact form */
@@ -567,6 +551,24 @@ textarea{
 	padding:1%;
 }
 
+.learn_more{
+	padding:2%;
+	width:200px;
+	background:none;
+	border: solid 1px white;
+	color:white;
+	text-align: center;
+   	display: block;
+   	margin: 0 auto;
+}
+
+.learn_more:hover{
+	background: teal;
+	border: solid 1px white;
+	text-decoration: none;
+	color:white;
+}
+
 /*Responsive Design*/
 
 @media (max-width: 1020px) {
@@ -600,7 +602,7 @@ textarea{
         text-decoration: none;
         display: block;
         padding: 2%;
-        width: 150px;
+        width: 140px;
     }
     #mobile-nav a {
         text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
@@ -641,14 +643,13 @@ textarea{
     .responsive-menu {
         position: fixed;
         top: 50px;
-        right: 10%;
+        right: 12%;
         display: inline-block;
         background: white;
-        width: 150px;
+        width: 140px;
 		padding: 3%;
-        text-align: center;
         z-index: 1015 !important;
-        font-size: .7em;
+        font-size: .8em;
 		line-height: 2em;
     }
     .responsive-menu li {
@@ -678,6 +679,9 @@ textarea{
     .uses {
         display: none;
     }
+	#nav1{
+		height:70vh;
+	}
 }
 @media (max-width: 600px) {
     #greeting {
@@ -692,13 +696,6 @@ textarea{
     }
     .elasticstack li h5 {
         font-size: 1em !important;
-    }
-    #firstarrows {
-        width: 85%;
-        margin-top: 15%;
-    }
-    #secondarrows {
-        width: 85%;
     }
     .grid figure {
         float: none;
@@ -718,7 +715,7 @@ textarea{
     }
     #right-top>p {
         font-size: 1.2em;
-    }
+	}
 }
 
 #greeting {
@@ -731,6 +728,10 @@ textarea{
 .modal {
     padding: 3%;
 	color: black;
+	font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+	font-size:1em;
+    line-height: 1.4;
 }
 .vertical-alignment-helper {
     display: table;

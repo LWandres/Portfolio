@@ -1,15 +1,8 @@
 $(document).ready(function() {
 
-    // responsive menu and arrow animation
+    // responsive menu
     $(".responsive-menu").hide();
-    $("#toparrow").hide();
-    $("#middlearrow").hide();
-    $("#bottomarrow").hide();
-    $("#toparrow2").hide();
-    $("#middlearrow2").hide();
-    $("#bottomarrow2").hide();
 
-    //toggles the responsive menu
     $("#menu-btn").click(function() {
         $(".responsive-menu").toggle();
     });
@@ -28,20 +21,13 @@ $(document).ready(function() {
         }
     });
 
-});
+    $("#learn_more").click(function(){
+        var height = $(window).height();
+        var section = $(this);
+        var offset = section.offset();
+        $("html,body").animate({ scrollTop: offset.top + height - 200 });
+    });
 
-//scrolling navbar
-$(window).bind('scroll', function() {
-    if ($(window).scrollTop() > 1.5) {
-        $("#toparrow").fadeIn(2000);
-        $("#middlearrow").fadeIn(4000);
-        $("#bottomarrow").fadeIn(7000);
-    }
-    if ($(window).scrollTop() > 900) {
-        $("#toparrow2").fadeIn(2000);
-        $("#middlearrow2").fadeIn(4000);
-        $("#bottomarrow2").fadeIn(7000);
-    }
 });
 
 //scrolling content
@@ -52,6 +38,7 @@ $(window).bind('scroll', function() {
         $('.content ul').show();
     }
 });
+
 
 //Google Analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
