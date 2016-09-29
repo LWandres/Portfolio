@@ -321,6 +321,7 @@
               </div>
               <div class="modal-body">
                 <img src="/assets/images/L4A.png" alt="Letters4Animals.png" class="modalimage">
+                <img src="/assets/images/adminpanel.png" alt="adminpanel.png" class="modalimage">
                 <p> Letters4Animals strives to increase and promote civic engagement through automating letters to political officials.
                     Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
                     to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.</p>

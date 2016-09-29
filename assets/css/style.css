@@ -367,6 +367,13 @@ a[id="nav3"]:target~#main article.article {
 	font-weight: 400;
     font-size: 1.2em;
 }
+.modalimage:hover{
+	width: 100%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
 .grid {
     position: relative;
     margin: 0 auto;
