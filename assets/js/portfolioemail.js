@@ -10,7 +10,7 @@ $(document).ready(function() {
             while (c.charAt(0) == ' ') {
                 c = c.substring(1);
             }
-            if (c.indexOf(name) == 0) {
+            if (c.indexOf(name) === 0) {
                 return c.substring(name.length, c.length);
             }
         }
@@ -60,20 +60,6 @@ $(document).ready(function() {
         }
     });
 
-});
-
-//scrolling navbar
-$(window).bind('scroll', function() {
-    if ($(window).scrollTop() > 1.5) {
-        $("#toparrow").fadeIn(2000);
-        $("#middlearrow").fadeIn(4000);
-        $("#bottomarrow").fadeIn(7000);
-    }
-    if ($(window).scrollTop() > 900) {
-        $("#toparrow2").fadeIn(2000);
-        $("#middlearrow2").fadeIn(4000);
-        $("#bottomarrow2").fadeIn(7000);
-    }
 });
 
 //scrolling content

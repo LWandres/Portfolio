@@ -545,7 +545,6 @@ input.form-control{
 	background:mediumturquoise;
 	color:white;
 }
-
 #send{
 	float:right;
 	margin-right:3%;
@@ -562,7 +561,6 @@ textarea{
 	resize: none;
 	padding:1%;
 }
-
 .learn_more{
 	padding:2%;
 	width:200px;
@@ -573,13 +571,13 @@ textarea{
    	display: block;
    	margin: 0 auto;
 }
-
 .learn_more:hover{
 	background: teal;
 	border: solid 1px white;
 	text-decoration: none;
 	color:white;
 }
+
 
 /*Responsive Design*/
 
