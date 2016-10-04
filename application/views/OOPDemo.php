@@ -1,7 +1,6 @@
 <html>
 <head>
 	<title>JavaScript OOP Example</title>
-
 	<!-- external CDNS -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel='stylesheet' type='text/css'>
 	<link href="/../../assets/css/OOPDemo.css" rel='stylesheet' type='text/css'>

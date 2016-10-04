@@ -8,9 +8,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Web Developer Portfolio Website">
-    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,Web Developer,HTML5,CSS3,JavaScript,Full Stack Developer,San Francisco">
-    <meta name="author" content="Laura Wandres">
     <!-- stylesheets -->
     <link href="/assets/css/UXstyle.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/assets/css/component.css" />

@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
-    <meta name="description" content="Web Developer Portfolio Website">
-    <meta name="keywords" content="Laura Wandres,Laura Wandres Portfolio,Web Developer,HTML5,CSS3,JavaScript,Full Stack Developer,San Francisco">
-    <meta name="author" content="Laura Wandres">
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
 
     <!-- stylesheets -->
@@ -345,11 +342,12 @@
                         <h3 class="modal-title">SHUDIDOO - 2016 (Pronounced: "Should-I-Do")</h3>
                     </div>
                     <div class="modal-body">
-                        <video width="350" height="270" controls>
-                            <source src="/assets/ShudidooDemo.mp4" type="video/mp4">
+                        <img src="/assets/images/shudidoophone.png" alt="shudidoo.png" class="modalimage">
+                        <!-- <video width="350" height="270" controls>
+                            <source src="/assets/images/ShudidooDemo.mp4" type="video/mp4">
                             <!-- <source src="movie.ogg" type="video/ogg"> -->
-                            Your browser does not support the video tag.
-                        </video>
+                            <!-- Your browser does not support the video tag. -->
+                        <!-- </video> -->
                         <p>Users are able to store "To-Do" tasks and find nearby locations where they can complete them using the Google Places API.
                            The App also suggests nearby activities for users to experience on days when they are looking to try something new.<br><br>
                            Technologies: Swift, iOS, CoreLocation, SQL Google Places API<br><br>
