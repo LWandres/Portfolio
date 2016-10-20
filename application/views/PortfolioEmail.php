@@ -173,6 +173,16 @@
                         </figcaption>
                     </figure>
 
+                    <figure class="effect-milo clarity">
+                        <img src="/assets/images/clarityportfolio.png" alt="clarity" />
+                        <figcaption>
+                            <h2>CLARITY</span></h2>
+                            <p>Online resume optimizing tool<br><br>
+                             <span class="uses"> Uses: HTML5/CSS3, AngularJS, Node.js </span></p>
+                            <a data-toggle="modal" data-target="#CLModal" href=""></a>
+                        </figcaption>
+                    </figure>
+
                     <figure class="effect-milo SH">
                         <img src="/assets/images/shudidoo.jpg" alt="img03" />
                         <figcaption>
@@ -183,6 +193,8 @@
                         </figcaption>
                     </figure>
 
+                    <br class="clear">
+
                     <figure class="effect-milo WALL">
                         <img src="/assets/images/wall.png" alt="img03" />
                         <figcaption>
@@ -192,8 +204,6 @@
                             <a data-toggle="modal" data-target="#WallModal" href=""></a>
                         </figcaption>
                     </figure>
-
-                    <br class="clear">
 
                     <figure class="effect-milo CUSTOMERS">
                         <img src="/assets/images/customers.png" alt="img03" />
@@ -215,7 +225,8 @@
                         </figcaption>
                     </figure>
 
-                    <figure class="effect-milo JQUERY">
+
+                    <!-- <figure class="effect-milo JQUERY">
                         <img src="/assets/images/jquery.png" alt="img03" />
                         <figcaption>
                             <h2>jQUERY<span>Demo</span></h2>
@@ -223,7 +234,7 @@
                              <span class="uses"> Uses: jQUERY, HTML, CSS</span></p>
                             <a data-toggle="modal" data-target="#jQueryModal" href=""></a>
                         </figcaption>
-                    </figure>
+                    </figure> -->
                 </div><!-- end grid1 container -->
             </div><!-- end portfolio container -->
         </article><!-- end nav3 section -->
@@ -253,223 +264,248 @@
             </form>
         </article>
 
-    <!--- BEGIN MODALS -->
-    <!-- Project Managed Modal -->
-    <div class="modal fade" id="PMModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">PROJECT MANAGED- 1st Place in Hackathon - 2016</h3>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/assets/images/PMManaged.png" alt="ProjectManaged.png" class="modalimage">
-                        <p>Inspired by years as an IT project manager, this web-application helps users automate tedious project management tasks.
-                            From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
-                            send out automatic follow-up reminders to tagged meeting participants.</p>
-                        <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS</p>
-                        <p>Involvement: Individual Full Stack Development</p><br>
-                        <a href="http://52.40.19.212" class="to_site" target="_top">TO THE SITE</a>
-                        <a href="http://github.com/LWandres/Project-Managed-Final" class="to_site" target="_top">TO GITHUB</a>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-    <!-- End Project Managed Modal -->
+        <!--- BEGIN MODALS -->
+        <!-- Project Managed Modal -->
+        <div class="modal fade" id="PMModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">PROJECT MANAGED- 1st Place in Hackathon - 2016</h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/PMManaged.png" alt="ProjectManaged.png" class="modalimage">
+                            <p>Inspired by years as an IT project manager, this web-application helps users automate tedious project management tasks.
+                                From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
+                                send out automatic follow-up reminders to tagged meeting participants.</p>
+                            <p>Technologies: PHP, SQL, PHPmailer, PDF API, Rich-Text Editor, jQuery, BootStrap, HTML/CSS</p>
+                            <p>Involvement: Individual Full Stack Development</p><br>
+                            <a href="http://52.40.19.212" class="to_site" target="_top">TO THE SITE</a>
+                            <a href="http://github.com/LWandres/Project-Managed-Final" class="to_site" target="_top">TO GITHUB</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End Project Managed Modal -->
 
-    <!-- Fort McMurray Modal -->
-    <div class="modal fade" id="FMModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">FORT MCMURRAY RELIEF FUND - 2016</h3>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/assets/images/FtMac.png" alt="FortMac.png" class="modalimage">
-                        <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All proceeds are going to the United Way of Fort McMurray for distribution.</p>
-                        <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets</p>
-                        <p>Involvement: Group Project - Implemented Front-End</p><br>
-                        <a href="http://www.fortmcmurrayrelieffund.com/" class="to_site" target="_top">TO THE SITE</a>
-                        <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" class="to_site" target="_top">READ ABOUT THE FIRE</a>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-    <!-- End Fort McMurray Modal -->
+        <!-- Fort McMurray Modal -->
+        <div class="modal fade" id="FMModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">FORT MCMURRAY RELIEF FUND - 2016</h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/FtMac.png" alt="FortMac.png" class="modalimage">
+                            <p>A PHP website deployed to raise funds for the victims of the Fort McMurray Wildfire in Alberta, Canada. All proceeds are going to the United Way of Fort McMurray for distribution.</p>
+                            <p>Technologies: PHP, HTML, CSS, jQuery,SQL,Bootstrap, PHPmailer, Sockets</p>
+                            <p>Involvement: Group Project - Implemented Front-End</p><br>
+                            <a href="http://www.fortmcmurrayrelieffund.com/" class="to_site" target="_top">TO THE SITE</a>
+                            <a href="http://en.wikipedia.org/wiki/2016_Fort_McMurray_wildfire" class="to_site" target="_top">READ ABOUT THE FIRE</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End Fort McMurray Modal -->
 
-    <!-- Letters4Animals Modal -->
-    <div class="modal fade" id="L4AModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">LETTERS4ANIMALS - 2016</h3>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/assets/images/L4A.png" alt="Letters4Animals.png" class="modalimage">
-                        <img src="/assets/images/adminpanel.png" alt="adminpanel.png" class="modalimage">
-                        <p> Letters4Animals strives to increase and promote civic engagement through automating letters to political officials.
-                            Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
-                            to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.</p>
-                        <p>Technologies: Express.js, AngularJS, Node,js, Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br><br>
-                            Involvement: Group Project - Full Stack Developer.</p><br>
-                        <a href="http://54.187.97.10" class="to_site" target="_top">TO THE SITE</a>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-    <!-- End Letters4Animals Modal -->
+        <!-- Letters4Animals Modal -->
+        <div class="modal fade" id="L4AModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">LETTERS4ANIMALS - 2016</h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/L4A.png" alt="Letters4Animals.png" class="modalimage">
+                            <img src="/assets/images/adminpanel.png" alt="adminpanel.png" class="modalimage">
+                            <p> Letters4Animals strives to increase and promote civic engagement through automating letters to political officials.
+                                Users choose a cause they care about, enter basic address information, and the site auto-generates a templated letter
+                                to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.</p>
+                            <p>Technologies: Express.js, AngularJS, Node,js, Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br><br>
+                                Involvement: Group Project - Full Stack Developer.</p><br>
+                            <a href="http://letters4animals.org/#/" class="to_site" target="_top">TO THE SITE</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End Letters4Animals Modal -->
 
-    <!-- Shudidoo Modal -->
-    <div class="modal fade" id="SDModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">SHUDIDOO - 2016 (Pronounced: "Should-I-Do")</h3>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/assets/images/shudidoophone.png" alt="shudidoo.png" class="modalimage">
-                        <!-- <video width="350" height="270" controls>
-                            <source src="/assets/ShudidooDemo.mp4" type="video/mp4">
-                            <!-- <source src="movie.ogg" type="video/ogg"> -->
-                            <!-- Your browser does not support the video tag. -->
-                        <!-- </video> -->
-                        <p>Users are able to store "To-Do" tasks and find nearby locations where they can complete them using the Google Places API.
-                           The App also suggests nearby activities for users to experience on days when they are looking to try something new.<br><br>
-                           Technologies: Swift, iOS, CoreLocation, SQL Google Places API<br><br>
-                           Involvement: Group Project - Full Stack Mobile Developer</p><br>
-                        <button class="to_site">GITHUB REPO COMING SOON <br>(Currently refactoring)</button>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-    <!-- End Shudidoo Modal -->
+        <!-- Clarity Modal -->
+        <div class="modal fade" id="CLModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Clarity - 2016 </h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/clarityhome.png" alt="clarityhome.png" class="modalimage">
+                            <img src="/assets/images/clarityresults.png" alt="clarityresults.png" class="modalimage">
+                            <p>This site allows users to upload their personalized resume content and compare it against job description data.<br><br>
+                               While there are other sites that facilitate this, many are paid services. I coded my own to enable limitless scanning.</p>
+                               Technologies: HTML5/CSS3, AngularJS, Node.js<br><br>
+                               Involvement: Individual Project - Web Developer</p><br>
+                               <a href="https://github.com/LWandres/Clarity" class="to_site" target="_top">TO GITHUB</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End Clarity Modal -->
 
-    <!-- ChatRoom Modal -->
-    <div class="modal fade" id="ChatModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">CHAT ROOM - 2016</h3>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/assets/images/ChatRoom1.png" alt="ChatRoom1.png" class="modalimage">
-                        <!-- <img src="/assets/images/ChatRoom2.png" alt="ChatRoom2.png" class="modalimage"> -->
-                        <p>A straightforward chat room where users can communicate in real-time.</p>
-                        <p>Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
-                           Involvement: Individual Project -  Web Developer</p><br>
-                        <a href="http://52.37.34.146" class="to_site" target="_top">TO THE SITE</a>
-                        <a href="https://github.com/LWandres/Chat_Room" class="to_site" target="_top">TO GITHUB</a>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-    <!-- End ChatRoom Modal -->
+        <!-- Shudidoo Modal -->
+        <div class="modal fade" id="SDModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">SHUDIDOO - 2016 (Pronounced: "Should-I-Do")</h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/shudidoophone.png" alt="shudidoo.png" class="modalimage">
+                            <!-- <video width="350" height="270" controls>
+                                <source src="/assets/images/ShudidooDemo.mp4" type="video/mp4">
+                                <!-- <source src="movie.ogg" type="video/ogg"> -->
+                                <!-- Your browser does not support the video tag. -->
+                            <!-- </video> -->
+                            <p>Users are able to store "To-Do" tasks and find nearby locations where they can complete them using the Google Places API.
+                               The App also suggests nearby activities for users to experience on days when they are looking to try something new.<br><br>
+                               Technologies: Swift, iOS, CoreLocation, SQL Google Places API<br><br>
+                               Involvement: Group Project - Full Stack Mobile Developer</p><br>
+                            <button class="to_site">GITHUB REPO COMING SOON <br>(Currently refactoring)</button>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End Shudidoo Modal -->
 
-    <!-- OOP Modal -->
-    <div class="modal fade" id="OOPModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">Object Oriented Programming Demo - 2016</h3>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/assets/images/OOP.png" alt="OOP.png" class="modalimage">
-                        <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p>
-                        <p>Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
-                           Involvement: Individual Project- Web Developer</p>
-                           NOTE: Please use Google Chrome for this demo.<br><br><br>
-                        <a href="/main/OOPDemo" class="to_site" target="_top">TO THE SITE</a>
-                        <a href="http://github.com/LWandres/OOPDemo" class="to_site" target="_top">TO GITHUB</a>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    <!-- End OOP Modal -->
+        <!-- ChatRoom Modal -->
+        <div class="modal fade" id="ChatModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">CHAT ROOM - 2016</h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/ChatRoom1.png" alt="ChatRoom1.png" class="modalimage">
+                            <!-- <img src="/assets/images/ChatRoom2.png" alt="ChatRoom2.png" class="modalimage"> -->
+                            <p>A straightforward chat room where users can communicate in real-time.</p>
+                            <p>Technologies: Node.js, Express.js, Socket.io, HTML/CSS, jQuery<br><br>
+                               Involvement: Individual Project -  Web Developer</p><br>
+                            <a href="http://52.37.34.146" class="to_site" target="_top">TO THE SITE</a>
+                            <a href="https://github.com/LWandres/Chat_Room" class="to_site" target="_top">TO GITHUB</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End ChatRoom Modal -->
 
-    <!-- The Wall Modal -->
-    <div class="modal fade" id="WallModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                  <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h3 class="modal-title">THE WALL - 2016</h3>
-                  </div>
-                  <div class="modal-body">
-                      <img src="/assets/images/TheWall.png" alt="TheWall.png" class="modalimage">
-                      <p>A Web-Forum for Online Discussion.</p>
-                      <p>Technologies: MEAN Stack, HTML, CSS, jQuery, Sockets<br><br>
-                       Involvement: Individual Project - Full Stack Web Developer</p><br>
-                       <a href="http://52.32.116.49" class="to_site" target="_top">TO THE SITE</a>
-                       <a href="https://github.com/LWandres/TheWall" class="to_site" target="_top">TO GITHUB</a>
-                  </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-    <!-- End TheWall Modal -->
+        <!-- OOP Modal -->
+        <div class="modal fade" id="OOPModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Object Oriented Programming Demo - 2016</h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/OOP.png" alt="OOP.png" class="modalimage">
+                            <p>A very basic implementation of Object Oriented Programming with dynamically generated circles.</p>
+                            <p>Technologies: Javascript, OOP, jQuery, HTML/CSS<br><br>
+                               Involvement: Individual Project- Web Developer</p>
+                               NOTE: Please use Google Chrome for this demo.<br><br><br>
+                            <a href="/main/OOPDemo" class="to_site" target="_top">TO THE SITE</a>
+                            <a href="http://github.com/LWandres/OOPDemo" class="to_site" target="_top">TO GITHUB</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End OOP Modal -->
 
-    <!-- The Mini-Store Modal -->
-    <div class="modal fade" id="StoreModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">MINI-STORE - 2016</h3>
-                    </div>
-                    <img src="/assets/images/Mini-Store.png" alt="Mini-Store.png" class="modalimage">
-                    <div class="modal-body">
-                        <p>A back-end administration portal for a mock company to manage their customers, products, and orders.</p>
-                        <p>Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
-                           Involvement: Individual Project- Full Stack Web Developer</p><br>
-                        <a href="http://52.43.15.209/" class="to_site" target="_top">TO THE SITE</a>
-                        <a href="https://github.com/LWandres/Mini-Store" class="to_site" target="_top">TO GITHUB</a>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-<!-- End Mini-Store Modal -->
+        <!-- The Wall Modal -->
+        <div class="modal fade" id="WallModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h3 class="modal-title">THE WALL - 2016</h3>
+                      </div>
+                      <div class="modal-body">
+                          <img src="/assets/images/TheWall.png" alt="TheWall.png" class="modalimage">
+                          <p>A Web-Forum for Online Discussion.</p>
+                          <p>Technologies: MEAN Stack, HTML, CSS, jQuery, Sockets<br><br>
+                           Involvement: Individual Project - Full Stack Web Developer</p><br>
+                           <a href="http://52.32.116.49" class="to_site" target="_top">TO THE SITE</a>
+                           <a href="https://github.com/LWandres/TheWall" class="to_site" target="_top">TO GITHUB</a>
+                      </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End TheWall Modal -->
 
-    <!-- The jQuery Modal -->
-    <div class="modal fade" id="jQueryModal" role="dialog">
-        <div class="vertical-alignment-helper">
-            <div class="modal-dialog vertical-align-center">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">STAR WARS jQUERY DEMO - 2016</h3>
-                    </div>
-                    <div class="modal-body">
-                        <img src="/assets/images/star_wars.png" alt="star_wars.png" class="modalimage">
-                        <p>An interactive jQuery site themed after Star Wars.</p>
-                        <p>Technologies: HTML/CSS, jQuery<br><br>
-                           Involvement: Individual Project - Web Developer</p><br>
-                        <a href="/main/starwars" class="to_site" target="_top">TO THE SITE</a>
-                        <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo" class="to_site" target="_top">TO GITHUB</a>
-                    </div>
-                </div><!--end modal-content-->
-            </div><!--end modal-dialog-->
-        </div><!--end vertical-alignment-->
-    </div><!--end modal fade-->
-    <!-- End jQuery Modal -->
+        <!-- The Mini-Store Modal -->
+        <div class="modal fade" id="StoreModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">MINI-STORE - 2016</h3>
+                        </div>
+                        <img src="/assets/images/Mini-Store.png" alt="Mini-Store.png" class="modalimage">
+                        <div class="modal-body">
+                            <p>A back-end administration portal for a mock company to manage their customers, products, and orders.</p>
+                            <p>Technologies: MEAN Stack (Mongo, Express.js, AngularJS, Node.js), Mongoose, HTML/CSS<br><br>
+                               Involvement: Individual Project- Full Stack Web Developer</p><br>
+                            <a href="http://52.43.15.209/" class="to_site" target="_top">TO THE SITE</a>
+                            <a href="https://github.com/LWandres/Mini-Store" class="to_site" target="_top">TO GITHUB</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+    <!-- End Mini-Store Modal -->
+
+        <!-- The jQuery Modal -->
+        <div class="modal fade" id="jQueryModal" role="dialog">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">STAR WARS jQUERY DEMO - 2016</h3>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/images/star_wars.png" alt="star_wars.png" class="modalimage">
+                            <p>An interactive jQuery site themed after Star Wars.</p>
+                            <p>Technologies: HTML/CSS, jQuery<br><br>
+                               Involvement: Individual Project - Web Developer</p><br>
+                            <a href="/main/starwars" class="to_site" target="_top">TO THE SITE</a>
+                            <a href="http://github.com/LWandres/Star_Wars-jQuery-Demo" class="to_site" target="_top">TO GITHUB</a>
+                        </div>
+                    </div><!--end modal-content-->
+                </div><!--end modal-dialog-->
+            </div><!--end vertical-alignment-->
+        </div><!--end modal fade-->
+        <!-- End jQuery Modal -->
 
     <script>
         new ElastiStack(document.getElementById('elasticstack'));

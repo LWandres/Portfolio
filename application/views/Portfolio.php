@@ -173,6 +173,16 @@
                         </figcaption>
                     </figure>
 
+                    <figure class="effect-milo clarity">
+                        <img src="/assets/images/clarityportfolio.png" alt="clarity" />
+                        <figcaption>
+                            <h2>CLARITY</span></h2>
+                            <p>Online resume optimizing tool<br><br>
+                             <span class="uses"> Uses: HTML5/CSS3, AngularJS, Node.js </span></p>
+                            <a data-toggle="modal" data-target="#CLModal" href=""></a>
+                        </figcaption>
+                    </figure>
+
                     <figure class="effect-milo SH">
                         <img src="/assets/images/shudidoo.jpg" alt="img03" />
                         <figcaption>
@@ -183,6 +193,8 @@
                         </figcaption>
                     </figure>
 
+                    <br class="clear">
+
                     <figure class="effect-milo WALL">
                         <img src="/assets/images/wall.png" alt="img03" />
                         <figcaption>
@@ -192,8 +204,6 @@
                             <a data-toggle="modal" data-target="#WallModal" href=""></a>
                         </figcaption>
                     </figure>
-
-                    <br class="clear">
 
                     <figure class="effect-milo CUSTOMERS">
                         <img src="/assets/images/customers.png" alt="img03" />
@@ -215,7 +225,8 @@
                         </figcaption>
                     </figure>
 
-                    <figure class="effect-milo JQUERY">
+
+                    <!-- <figure class="effect-milo JQUERY">
                         <img src="/assets/images/jquery.png" alt="img03" />
                         <figcaption>
                             <h2>jQUERY<span>Demo</span></h2>
@@ -223,7 +234,7 @@
                              <span class="uses"> Uses: jQUERY, HTML, CSS</span></p>
                             <a data-toggle="modal" data-target="#jQueryModal" href=""></a>
                         </figcaption>
-                    </figure>
+                    </figure> -->
                 </div><!-- end grid1 container -->
             </div><!-- end portfolio container -->
         </article><!-- end nav3 section -->
@@ -324,13 +335,37 @@
                             to political representatives based on the zipcode provided. The Scrum team converted an existing Wordpress design to a JS powered site, enabling the client to expand the site's functionality.</p>
                         <p>Technologies: Express.js, AngularJS, Node,js, Postgres, Google Civics API, Google Analytics API, Facebook & Twitter integration, Twilio API, NPM, Rich-Text Editor<br><br>
                             Involvement: Group Project - Full Stack Developer.</p><br>
-                        <a href="http://54.187.97.10" class="to_site" target="_top">TO THE SITE</a>
+                        <a href="http://letters4animals.org/#/" class="to_site" target="_top">TO THE SITE</a>
                     </div>
                 </div><!--end modal-content-->
             </div><!--end modal-dialog-->
         </div><!--end vertical-alignment-->
     </div><!--end modal fade-->
     <!-- End Letters4Animals Modal -->
+
+    <!-- Clarity Modal -->
+    <div class="modal fade" id="CLModal" role="dialog">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Clarity - 2016 </h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/assets/images/clarityhome.png" alt="clarityhome.png" class="modalimage">
+                        <img src="/assets/images/clarityresults.png" alt="clarityresults.png" class="modalimage">
+                        <p>This site allows users to upload their personalized resume content and compare it against job description data.<br><br>
+                           While there are other sites that facilitate this, many are paid services. I coded my own to enable limitless scanning.</p>
+                           Technologies: HTML5/CSS3, AngularJS, Node.js<br><br>
+                           Involvement: Individual Project - Web Developer</p><br>
+                           <a href="https://github.com/LWandres/Clarity" class="to_site" target="_top">TO GITHUB</a>
+                    </div>
+                </div><!--end modal-content-->
+            </div><!--end modal-dialog-->
+        </div><!--end vertical-alignment-->
+    </div><!--end modal fade-->
+    <!-- End Clarity Modal -->
 
     <!-- Shudidoo Modal -->
     <div class="modal fade" id="SDModal" role="dialog">
@@ -405,6 +440,7 @@
                 </div><!--end modal-content-->
             </div><!--end modal-dialog-->
         </div><!--end vertical-alignment-->
+    </div><!--end modal fade-->
     <!-- End OOP Modal -->
 
     <!-- The Wall Modal -->

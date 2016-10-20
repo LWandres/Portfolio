@@ -1,9 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 require (BASEPATH.'libraries/PHPMailerAutoload.php');
 require(BASEPATH.'libraries/class.phpmailer.php');
-
 class main extends CI_Controller {
-
 	public function index(){
 		$this->load->view('Portfolio');
 	}
@@ -54,6 +52,5 @@ class main extends CI_Controller {
 						 redirect('main/emailconfirm');
 			   		}
 				}
-
 	}
 }
