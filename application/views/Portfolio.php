@@ -21,10 +21,10 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
 
     <!-- js -->
-    <script async src="/assets/js/jquery-3.1.0.min.js"></script>
-    <script async src="/assets/js/modernizr.custom.js"></script>
-    <script async src="/assets/js/draggabilly.pkgd.min.js"></script>
-    <script async src="/assets/js/elastiStack.js"></script>
+    <script src="/assets/js/jquery-3.1.0.min.js"></script>
+    <script src="/assets/js/modernizr.custom.js"></script>
+    <script src="/assets/js/draggabilly.pkgd.min.js"></script>
+    <script src="/assets/js/elastiStack.js"></script>
     <script async src="/assets/js/bootstrap.min.js"></script>
     <script async src="/assets/js/portfolio.js"></script>
     <script async src="/assets/js/sweetalert.min.js"></script>
@@ -105,17 +105,17 @@
         <!-- About PhotoSlides -->
         <article class="article col-md-12" id="nav2"><br><br><br>
             <ul id="elasticstack" class="elasticstack">
-                <li><img async src="/assets/images/About.png" alt="02"/><h5>Nice to meet you!</h5></li>
-                <li><img async src="/assets/images/goldengate.jpg" alt="03"/><h5>This is home. The view doesn't get old :) </h5></li>
-                <li><img async src="/assets/images/mobile.png" alt="04" /><h5>I code web and mobile applications</h5></li>
-                <li><img async src="/assets/images/UX.png" alt="04"/><h5>& enjoy designing UX users will love.</h5></li>
-                <li><img async src="/assets/images/realms.png" alt="06" /><h5>I've worked in non-profit & for-profit realms</h5></li>
-                <li><img async src="/assets/images/technical.png" alt="06" /><h5>in technical & non-tech roles...</h5></li>
-                <li><img async src="/assets/images/impact.png" alt="05" /><h5>and am looking to "do good" with my code.</h5></li>
-                <li><img async src="/assets/images/brain.png" alt="05" /><h5>I'm a creative problem solver</h5></li>
-                <li><img async src="/assets/images/trust.png" alt="05" /><h5>who builds strong relationships & trust</h5></li>
-                <li><img async src="/assets/images/dive.png" alt="05" /><h5>and learns quickly to jump right in.</h5></li>
-                <li><img async src="/assets/images/activities.png" alt="06" /><h5>In my spare time I enjoy...</h5></li>
+                <li><img src="/assets/images/About.png" alt="02"/><h5>Nice to meet you!</h5></li>
+                <li><img src="/assets/images/goldengate.jpg" alt="03"/><h5>This is home. The view doesn't get old :) </h5></li>
+                <li><img src="/assets/images/mobile.png" alt="04" /><h5>I code web and mobile applications</h5></li>
+                <li><img src="/assets/images/UX.png" alt="04"/><h5>& enjoy designing UX users will love.</h5></li>
+                <li><img src="/assets/images/realms.png" alt="06" /><h5>I've worked in non-profit & for-profit realms</h5></li>
+                <li><img src="/assets/images/technical.png" alt="06" /><h5>in technical & non-tech roles...</h5></li>
+                <li><img src="/assets/images/impact.png" alt="05" /><h5>and am looking to "do good" with my code.</h5></li>
+                <li><img src="/assets/images/brain.png" alt="05" /><h5>I'm a creative problem solver</h5></li>
+                <li><img src="/assets/images/trust.png" alt="05" /><h5>who builds strong relationships & trust</h5></li>
+                <li><img src="/assets/images/dive.png" alt="05" /><h5>and learns quickly to jump right in.</h5></li>
+                <li><img src="/assets/images/activities.png" alt="06" /><h5>In my spare time I enjoy...</h5></li>
                 <li>
                 <div id="contactpic">
                     <a id="gmail" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top">GMAIL ME</a>
