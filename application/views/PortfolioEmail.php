@@ -11,14 +11,11 @@
     <link href="/assets/css/style.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/assets/css/component.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css" />
-    <link rel="shortcut icon" href="../favicon.ico">
+    <!-- <link rel="shortcut icon" href="../favicon.ico"> -->
     <link rel="stylesheet" type="text/css" href="/assets/css/sweetalert.css">
 
     <!--fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Varela+Round|Shadows+Into+Light+Two|Oxygen:300,400' rel='stylesheet' type='text/css'>
 
     <!-- js -->
     <script src="/assets/js/jquery-3.1.0.min.js"></script>
@@ -275,7 +272,7 @@
                             <h3 class="modal-title">PROJECT MANAGED- 1st Place in Hackathon - 2016</h3>
                         </div>
                         <div class="modal-body">
-                            <img src="/assets/images/PMManaged.png" alt="ProjectManaged.png" class="modalimage">
+                            <img src="/assets/images/PMManaged.jpg" alt="ProjectManaged.png" class="modalimage">
                             <p>Inspired by years as an IT project manager, this web-application helps users automate tedious project management tasks.
                                 From the site, users can create & store meeting agendas, directly email agendas to participants, download agendas to PDF, manage recurring meetings, & have the site
                                 send out automatic follow-up reminders to tagged meeting participants.</p>
@@ -494,7 +491,7 @@
                             <h3 class="modal-title">STAR WARS jQUERY DEMO - 2016</h3>
                         </div>
                         <div class="modal-body">
-                            <img src="/assets/images/star_wars.png" alt="star_wars.png" class="modalimage">
+                            <!-- <img src="/assets/images/star_wars.png" alt="star_wars.png" class="modalimage"> -->
                             <p>An interactive jQuery site themed after Star Wars.</p>
                             <p>Technologies: HTML/CSS, jQuery<br><br>
                                Involvement: Individual Project - Web Developer</p><br>
