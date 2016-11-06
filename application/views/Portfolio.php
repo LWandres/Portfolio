@@ -102,7 +102,7 @@
         <!-- About PhotoSlides -->
         <article class="article col-md-12" id="nav2"><br><br><br>
             <ul id="elasticstack" class="elasticstack">
-                <li><img src="/assets/images/About.png" alt="02"/><h5>Nice to meet you!</h5></li>
+                <li><img src="/assets/images/About.jpg" alt="02"/><h5>Nice to meet you!</h5></li>
                 <li><img src="/assets/images/goldengate.jpg" alt="03"/><h5>This is home. The view doesn't get old :) </h5></li>
                 <li><img src="/assets/images/mobile.png" alt="04" /><h5>I code web and mobile applications</h5></li>
                 <li><img src="/assets/images/UX.png" alt="04"/><h5>& enjoy designing UX users will love.</h5></li>
