@@ -259,6 +259,12 @@
                   <input id="send" class="formbutton col-md-5" type="submit" value="SEND">
                 </div>
             </form>
+            
+            <ul>
+                <li class="gmail-light"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lew4f08@gmail.com&body=Thanks%20for%20reaching%20out!%20Looking%20forward%20to%20meeting%20you." title="Gmail Me" target="_top"></a></li>
+                <li class="linkedin-light"><a href="https://www.linkedin.com/in/laura-wandres-18914115" title="Connect on Linkedin" target="_top"></a></li>
+                <li class="github-light"><a href="https://github.com/LWandres" title="GitHub" target="_top"></a></li>
+            </ul>
         </article>
 
         <!--- BEGIN MODALS -->

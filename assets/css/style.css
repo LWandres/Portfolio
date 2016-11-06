@@ -516,7 +516,7 @@ form{
 	display: inline-block;
 	text-align: left;
 	width:60%;
-	margin-bottom:20%;
+	margin-bottom:5%;
 }
 label{
 	display: block !important;
@@ -576,6 +576,46 @@ textarea{
 	border: solid 1px white;
 	text-decoration: none;
 	color:white;
+}
+
+#nav4> ul>li{
+	display: inline-block;
+	height: 100px;
+	padding-right:1%;
+	margin:0 auto;
+}
+
+#nav4 > ul{
+	display: inline-block;
+	width:100%;
+	margin:0 auto;
+	margin-left:3%;
+}
+
+#nav4> ul>li.gmail-light{
+    margin-top: 10px;
+    background: url(/assets/images/gmailwhite.png);
+    background-repeat: no-repeat;
+    width: 40px;
+}
+#nav4> ul>li.linkedin-light {
+    background: url(/assets/images/linkedinwhite.png);
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    width: 40px;
+}
+#nav4 > ul>li.github-light {
+    background: url(/assets/images/githubwhite.png);
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    width: 60px;
+}
+
+#nav4>ul>li>a{
+	color: black;
+    text-decoration: none;
+    padding: 20px;
+    vertical-align: bottom;
 }
 
 
